@@ -1,12 +1,24 @@
-import React from 'react';
-import './App.less';
-import { Button } from 'antd';
+import React from "react";
+
+import "./App.less";
+
+import { Layout } from "antd";
+import Navbar from "./components/Navbar";
+
+const { Header, Footer, Content } = Layout;
+
 function App() {
-  return (
-    <>
-      <Button type="primary">Ant Button</Button>
-    </>
-  );
+    return (
+        <>
+            <Layout>
+                <Header className="header">
+                    <Navbar />
+                </Header>
+                <Content></Content>
+                <Footer></Footer>
+            </Layout>
+        </>
+    );
 }
 
 export default App;
