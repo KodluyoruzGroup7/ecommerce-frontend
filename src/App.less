@@ -54,3 +54,44 @@
     align-items: center;
     font-weight: 500;
 }
+
+// Carousel
+
+.slick-slide {
+    display: flex;
+    position: relative;
+}
+
+.slick-slide .slick-active .slick-current {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-text {
+    font-size: x-large;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    // transform: translate(-50%, -50%);
+}
+
+.carousel-button {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 95%;
+    right: 40%;
+}
+
+.ant-btn .carousel-button :hover {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 95%;
+    right: 40%;
+}
