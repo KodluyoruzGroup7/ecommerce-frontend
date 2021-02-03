@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "../styles/Navbar.less";
+
 import { Menu } from "antd";
 import {
     ShopOutlined,

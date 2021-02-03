@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/MainCarousel.less";
+
 import { Carousel } from "antd";
 import { Button } from "antd";
 
