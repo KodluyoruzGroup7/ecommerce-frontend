@@ -18,7 +18,7 @@ const contentStyle = {
 
 function MainCarousel() {
     return (
-        <div>
+        <div style={{ position: "relative" }}>
             <Carousel effect="fade" autoplay="true">
                 <div>
                     <img src={banner1} alt="banner1" style={contentStyle} />
@@ -29,7 +29,7 @@ function MainCarousel() {
             </Carousel>
             <div className="carousel-text">
                 <h1>It's your time to be Icon</h1>
-                <h3>Check all trending products</h3>
+                <p>Check all trending products</p>
                 <Button className="carousel-button">SHOP NOW</Button>
             </div>
         </div>

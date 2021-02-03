@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import "./App.less";
 
 import { Layout } from "antd";
@@ -10,20 +10,20 @@ import BigCards from "./components/BigCards";
 const { Header, Footer, Content } = Layout;
 
 function App() {
-    return (
-        <>
-            <Layout>
-                <Header className="header">
-                    <Navbar />
-                </Header>
-                <Content>
-                    <MainCarousel />
-                    <BigCards />
-                </Content>
-                <Footer></Footer>
-            </Layout>
-        </>
-    );
+  return (
+    <Router>
+      <Layout>
+        <Header className="header">
+          <Navbar />
+        </Header>
+        <Content>
+          <MainCarousel />
+          <BigCards />
+        </Content>
+        <Footer></Footer>
+      </Layout>
+    </Router>
+  );
 }
 
 export default App;

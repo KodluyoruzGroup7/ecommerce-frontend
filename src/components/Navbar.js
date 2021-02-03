@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from 'react-router-dom';
 import "../styles/Navbar.less";
 
 import { Menu } from "antd";
@@ -21,10 +21,10 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
-                <a href="#">
+                <Link to="/">
                     <ShopOutlined />
                     TRENDBOO
-                </a>
+                </Link>
             </div>
             <Menu
                 onClick={menuClickHandler}
@@ -32,56 +32,56 @@ function Navbar() {
                 mode="horizontal"
             >
                 <Menu.Item key="women">
-                    <a
-                        href="https://ant.design"
+                    <Link
+                        to="/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Women
-                    </a>
+                    </Link>
                 </Menu.Item>
 
                 <Menu.Item key="men">
-                    <a
-                        href="https://ant.design"
+                    <Link
+                        to="/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Men
-                    </a>
+                    </Link>
                 </Menu.Item>
 
                 <Menu.Item key="kids">
-                    <a
-                        href="https://ant.design"
+                    <Link
+                        to="/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Kids
-                    </a>
+                    </Link>
                 </Menu.Item>
 
                 <Menu.Item key="accessories">
-                    <a
-                        href="https://ant.design"
+                    <Link
+                        to="/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Accessories
-                    </a>
+                    </Link>
                 </Menu.Item>
             </Menu>
 
             <div className="menu-right">
-                <a href="#">
+                <Link href="#">
                     <SearchOutlined />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <HeartOutlined />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <ShoppingOutlined />
-                </a>
+                </Link>
             </div>
         </div>
     );
