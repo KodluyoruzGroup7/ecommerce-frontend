@@ -1,54 +1,41 @@
 .footer-grid-container {
     display: grid;
     gap: 1.5rem 1.5rem;
-    grid-template-columns: 224px;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     max-width: 1200px;
     margin: 1rem auto;
 }
 
+.footer-grid-container p {
+    margin: 0.5rem;
+}
+
 .summary {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: auto;
-    background-color: red;
     justify-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .info {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: auto;
-    background-color: red;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
 }
 
 .quick-shop {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: auto;
-    background-color: red;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
 }
 
 .services {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: auto;
-    background-color: red;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
 }
 
 .newsletter {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    background-color: red;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
@@ -68,4 +55,33 @@ h3.title-text {
     text-align: center;
     vertical-align: middle;
     justify-content: center;
+}
+
+.social-logos a {
+    padding: 0.5rem;
+}
+
+.info ul li {
+    list-style: none;
+}
+
+.quick-shop ul li {
+    list-style: none;
+}
+
+.services ul li {
+    list-style: none;
+}
+
+.ant-btn.subscribe {
+    background-color: black;
+    color: white;
+    margin: 2% 0;
+}
+
+.ant-btn.subscribe:hover,
+.ant-btn.subscribe:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.8);
 }
