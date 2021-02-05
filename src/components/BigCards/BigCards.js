@@ -1,12 +1,11 @@
 import React from "react";
 
-import "../styles/BigCards.less";
 import "./bigCards.css";
 
-import card1 from "../images/bigCard1.jpg";
-import card2 from "../images/bigCard2.jpg";
-import card3 from "../images/bigCard3.jpg";
-import card4 from "../images/bigCard4.jpg";
+import card1 from "../../images/bigCard1.jpg";
+import card2 from "../../images/bigCard2.jpg";
+import card3 from "../../images/bigCard3.jpg";
+import card4 from "../../images/bigCard4.jpg";
 
 import { Card, Button } from "antd";
 

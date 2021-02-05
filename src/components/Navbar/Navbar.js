@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
-import "../styles/Navbar.less";
+import { Link } from "react-router-dom";
+
+import "./navbar.css";
 
 import { Menu } from "antd";
 import {
@@ -32,41 +33,25 @@ function Navbar() {
                 mode="horizontal"
             >
                 <Menu.Item key="women">
-                    <Link
-                        to="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <Link to="/" target="_blank" rel="noopener noreferrer">
                         Women
                     </Link>
                 </Menu.Item>
 
                 <Menu.Item key="men">
-                    <Link
-                        to="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <Link to="/" target="_blank" rel="noopener noreferrer">
                         Men
                     </Link>
                 </Menu.Item>
 
                 <Menu.Item key="kids">
-                    <Link
-                        to="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <Link to="/" target="_blank" rel="noopener noreferrer">
                         Kids
                     </Link>
                 </Menu.Item>
 
                 <Menu.Item key="accessories">
-                    <Link
-                        to="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <Link to="/" target="_blank" rel="noopener noreferrer">
                         Accessories
                     </Link>
                 </Menu.Item>

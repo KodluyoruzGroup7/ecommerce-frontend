@@ -2,9 +2,38 @@
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.ant-col.ant-col-10 {
+    padding: 0px;
+    margin-top: 24px;
+}
+
+.ant-card-body {
+    padding: 0px;
+}
+
+.ant-row.ant-row-center.ant-row-top {
+    margin: 24px 0px 0px 0px;
+    padding: 0px;
+}
+
+.ant-card {
+    overflow: hidden;
+}
+
+.ant-card:hover img {
+    transform: scale(1.1);
+    transition: all ease-out 0.4s;
+}
+
 .grid-container {
     display: grid;
     gap: 1.5rem 1.5rem;
+    grid-template-columns: 224px;
     grid-template-rows: auto;
     max-width: 1200px;
     margin: 1rem auto;
