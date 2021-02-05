@@ -1,12 +1,12 @@
 import React from "react";
 
-import "../styles/MainCarousel.less";
+import "./mainCarousel.css";
 
 import { Carousel } from "antd";
 import { Button } from "antd";
 
-import banner1 from "../images/crsl01.jpg";
-import banner2 from "../images/crsl02.jpg";
+import banner1 from "../../images/crsl01.jpg";
+import banner2 from "../../images/crsl02.jpg";
 
 const contentStyle = {
     width: "100%",
