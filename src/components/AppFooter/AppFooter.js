@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./appFooter.css";
 
@@ -28,64 +29,132 @@ const AppFooter = () => {
                     <b>Email:</b> info@shopboo.com
                 </p>
                 <div className="social-logos">
-                    <a href="">
-                        <FontAwesomeIcon
-                            icon={faFacebookF}
-                            color="black"
-                            size="lg"
-                        />
-                    </a>
+                    <Link
+                        to="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    ></Link>
+                    <FontAwesomeIcon
+                        icon={faFacebookF}
+                        color="black"
+                        size="lg"
+                    />
+                    <Link />
 
-                    <a href="">
-                        <FontAwesomeIcon
-                            icon={faTwitter}
-                            color="black"
-                            size="lg"
-                        />
-                    </a>
-                    <a href="">
-                        <FontAwesomeIcon
-                            icon={faInstagram}
-                            color="black"
-                            size="lg"
-                        />
-                    </a>
-                    <a href="">
-                        <FontAwesomeIcon
-                            icon={faPinterestP}
-                            color="black"
-                            size="lg"
-                        />
-                    </a>
+                    <Link
+                        to="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    ></Link>
+                    <FontAwesomeIcon icon={faTwitter} color="black" size="lg" />
+                    <Link />
+                    <Link
+                        to="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    ></Link>
+                    <FontAwesomeIcon
+                        icon={faInstagram}
+                        color="black"
+                        size="lg"
+                    />
+                    <Link />
+                    <Link
+                        to="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    ></Link>
+                    <FontAwesomeIcon
+                        icon={faPinterestP}
+                        color="black"
+                        size="lg"
+                    />
+                    <Link />
                 </div>
             </div>
             <div className="info">
                 <h3 className="title-text">INFORMATION</h3>
                 <ul>
-                    <li>About us</li>
-                    <li>Contact Us</li>
-                    <li>Career</li>
-                    <li>My Account</li>
-                    <li>Orders and Returns</li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            About us
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Contact Us
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Career
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            My Account
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Orders and Returns
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="quick-shop">
                 <h3 className="title-text">QUICK SHOP</h3>
                 <ul>
-                    <li>Women</li>
-                    <li>Men</li>
-                    <li>Accessories</li>
-                    <li>Shoes</li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Women
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Men
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Accessories
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Shoes
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="services">
                 <h3 className="title-text">CUSTOMER SERVICES</h3>
                 <ul>
-                    <li>Help & FAQs</li>
-                    <li>Returns Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Privacy Policy</li>
-                    <li>Support Center</li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Help & FAQs
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Returns Policy
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Terms & Conditions
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Privacy Policy
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/" target="_blank" rel="noopener noreferrer">
+                            Support Center
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="newsletter">
