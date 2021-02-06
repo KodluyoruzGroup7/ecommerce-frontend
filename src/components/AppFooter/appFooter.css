@@ -7,6 +7,10 @@
     margin: 1rem auto;
 }
 
+.footer-grid-container {
+    border-top: 1px black solid;
+}
+
 .footer-grid-container p {
     margin: 0.5rem;
 }
@@ -61,16 +65,31 @@ h3.title-text {
     padding: 0.5rem;
 }
 
-.info ul li {
-    list-style: none;
+.fa-lg:hover {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
 }
 
-.quick-shop ul li {
-    list-style: none;
-}
-
+.info ul li,
+.quick-shop ul li,
 .services ul li {
     list-style: none;
+}
+
+.info a,
+.quick-shop a,
+.services a {
+    color: black;
+    font-weight: 400;
+}
+
+.info a:hover,
+.quick-shop a:hover,
+.services a:hover {
+    color: black;
+    font-size: medium;
+    font-weight: 500;
 }
 
 .ant-btn.subscribe {
