@@ -1,0 +1,36 @@
+.banner {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.banner-icons {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-icon {
+    font-size: xx-large;
+    margin-right: 1rem;
+}
+
+.banner-icon,
+.banner-description {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-header {
+    color: white;
+}
+
+.banner-text {
+    margin-bottom: 0;
+    color: white;
+}
+
+.banner h3 {
+    margin: 0;
+}
