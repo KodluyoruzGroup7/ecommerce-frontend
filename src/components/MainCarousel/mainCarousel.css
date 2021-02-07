@@ -26,18 +26,19 @@ p {
     margin-bottom: 0;
 }
 
-.ant-btn.carousel-button {
+.ant-btn.carousel-btn {
     font-size: 14px;
     font-weight: 500;
     position: absolute;
     background-color: black;
     color: white;
-    top: 95%;
+    top: 100%;
     right: 40%;
 }
 
-.ant-btn.carousel-button:hover {
-    background-color: white;
-    border-color: black;
-    color: black;
+.ant-btn.carousel-btn:hover,
+.ant-btn.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.8);
 }
