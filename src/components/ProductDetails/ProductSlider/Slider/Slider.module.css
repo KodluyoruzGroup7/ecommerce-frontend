@@ -1,0 +1,14 @@
+.img {
+  width: 4.375rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.625rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.current {
+  opacity: 0.5;
+}
