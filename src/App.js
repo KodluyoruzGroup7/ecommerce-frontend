@@ -5,6 +5,7 @@ import "./App.less";
 import Navbar from "./components/Navbar/Navbar";
 import MainCarousel from "./components/MainCarousel/MainCarousel";
 import Banner from "./components/Banner/Banner";
+import ProductSwiper from "./components/ProductSwiper/ProductSwiper";
 import BigCards from "./components/BigCards/BigCards";
 import AppFooter from "./components/AppFooter/AppFooter";
 
@@ -22,6 +23,7 @@ function App() {
                     <MainCarousel />
                     <Banner />
                     <BigCards />
+                    <ProductSwiper />
                 </Content>
                 <Footer>
                     <AppFooter />

@@ -30,7 +30,7 @@ function MainCarousel() {
             <div className="carousel-text">
                 <h1>It's your time to be Icon</h1>
                 <p>Check all trending products</p>
-                <Button className="carousel-button">SHOP NOW</Button>
+                <Button className="carousel-btn">SHOP NOW</Button>
             </div>
         </div>
     );
