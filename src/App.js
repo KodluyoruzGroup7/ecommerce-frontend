@@ -1,33 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.less";
+import Layout from './components/Layout/Layout';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
+import ProductDetailScreen from './screens/ProductDetails/ProductDetailScreen';
 
-import Navbar from "./components/Navbar/Navbar";
-import MainCarousel from "./components/MainCarousel/MainCarousel";
-import Banner from "./components/Banner/Banner";
-import ProductSwiper from "./components/ProductSwiper/ProductSwiper";
-import BigCards from "./components/BigCards/BigCards";
-import AppFooter from "./components/AppFooter/AppFooter";
-
-import { Layout } from "antd";
-const { Header, Footer, Content } = Layout;
 
 function App() {
     return (
         <Router>
             <Layout>
-                <Header className="header">
-                    <Navbar />
-                </Header>
-                <Content>
-                    <MainCarousel />
-                    <Banner />
-                    <BigCards />
-                    <ProductSwiper />
-                </Content>
-                <Footer>
-                    <AppFooter />
-                </Footer>
+                <Switch>
+                    <Route path="/details">
+                        <ProductDetailScreen />
+                    </Route>
+                    <Route path="/">
+                        <HomeScreen />
+                    </Route>
+                </Switch>
             </Layout>
         </Router>
     );
