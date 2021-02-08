@@ -9,13 +9,14 @@ import ProductSwiper from "./components/ProductSwiper/ProductSwiper";
 import BigCards from "./components/BigCards/BigCards";
 import AppFooter from "./components/AppFooter/AppFooter";
 
-import { Layout } from "antd";
+import { Layout, BackTop } from "antd";
 const { Header, Footer, Content } = Layout;
 
 function App() {
     return (
         <Router>
             <Layout>
+                <BackTop />
                 <Header className="header">
                     <Navbar />
                 </Header>
