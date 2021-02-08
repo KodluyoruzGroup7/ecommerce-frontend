@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './ProductDetailScreen.module.css';
 import ProductImageZoomer from '../../components/ProductDetails/ProductImageZoomer/ProductImageZoomer';
 import ProductSlider from '../../components/ProductDetails/ProductSlider/ProductSlider';
+import ProductDetail from '../../components/ProductDetails/ProductDetail/ProductDetail';
 import shoes1Sm from '../../images/shoes/shoes-1-sm.jpg';
 import shoes1Xl from '../../images/shoes/shoes-1-xl.jpg';
 import shoes2Sm from '../../images/shoes/shoes-2-sm.webp';
@@ -61,7 +62,6 @@ const ProductDetailScreen = () => {
 
   const [currentImage, setCurrentImage] = useState(images[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [translateValue, setTranslateValue] = useState(0);
 
   const imageChangeHandler = index => {
     setCurrentImage(images[index]);
@@ -95,7 +95,7 @@ const ProductDetailScreen = () => {
         <ProductImageZoomer
           currentImage={currentImage}
         />
-        <div></div>
+        <ProductDetail />
       </div>
     </section>
   );
