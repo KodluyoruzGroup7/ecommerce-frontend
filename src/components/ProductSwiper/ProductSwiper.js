@@ -60,53 +60,55 @@ const ProductSwiper = () => {
             {products.map((product) => (
                 <SwiperSlide>
                     <div className="card__container">
-                        <div className="card__top__section">
-                            <img alt={product.name} src={`${product.img}`} />
-                            <div className="card__top__section__icons">
-                                <div className="card__top__section__icon__border">
-                                    <Link
-                                        to="/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <FontAwesomeIcon
-                                            icon={faHeart}
-                                            color="black"
-                                            size="lg"
-                                        />
-                                    </Link>
-                                    <Link />
-                                </div>
-                                <div className="card__top__section__icon__border">
-                                    <Link
-                                        to="/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <FontAwesomeIcon
-                                            icon={faShareAlt}
-                                            color="black"
-                                            size="lg"
-                                        />
-                                    </Link>
-                                    <Link />
-                                </div>
-                                <div className="card__top__section__icon__border">
-                                    <Link
-                                        to="/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <FontAwesomeIcon
-                                            icon={faShoppingBasket}
-                                            color="black"
-                                            size="lg"
-                                        />
-                                        <Link />
-                                    </Link>
+                        <Link>
+                            <div className="card__top__section">
+                                <img
+                                    alt={product.name}
+                                    src={`${product.img}`}
+                                />
+                                <div className="card__top__section__icons">
+                                    <div className="card__top__section__icon__border">
+                                        <Link
+                                            to="/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faHeart}
+                                                color="black"
+                                                size="lg"
+                                            />
+                                        </Link>
+                                    </div>
+                                    <div className="card__top__section__icon__border">
+                                        <Link
+                                            to="/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faShareAlt}
+                                                color="black"
+                                                size="lg"
+                                            />
+                                        </Link>
+                                    </div>
+                                    <div className="card__top__section__icon__border">
+                                        <Link
+                                            to="/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faShoppingBasket}
+                                                color="black"
+                                                size="lg"
+                                            />
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                         <div className="card__body__section">
                             <p>{`${product.name}`}</p>
                             {/* <span>

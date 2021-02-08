@@ -111,6 +111,10 @@
     font-size: 16px;
 }
 
+.card__top__section__icons:hover {
+    cursor: default;
+}
+
 .card__body__section {
     text-align: center;
     padding: 8px 5px;
