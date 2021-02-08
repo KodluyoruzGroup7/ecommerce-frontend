@@ -8,6 +8,10 @@ import card7 from "../../images/swiper-cards/swiper-card-4/shoes-1.jpg";
 // import card8 from "../../images/swiper-cards/swiper-card-4/shoes-2.jpg";
 import card9 from "../../images/swiper-cards/swiper-card-5/bag-black.jpg";
 // import card10 from "../../images/swiper-cards/swiper-card-5/bag-grey.jpg";
+import card11 from "../../images/swiper-cards/swiper-card-6/white-1.jpg";
+// import card12 from "../../images/swiper-cards/swiper-card-6/white-2.jpg";
+import card13 from "../../images/swiper-cards/swiper-card-7/blue-1.jpg";
+// import card14 from "../../images/swiper-cards/swiper-card-7/blue-2.jpg";
 
 const products = [
     {
@@ -18,11 +22,18 @@ const products = [
         reviews: 5,
     },
     {
-        name: "Innerbloom Puffer Jacket",
-        price: 179.99,
-        img: `${card5}`,
-        rating: 4.2,
-        reviews: 3,
+        name: "Emotion Mini Dress",
+        price: 109.99,
+        img: `${card11}`,
+        rating: 4.7,
+        reviews: 8,
+    },
+    {
+        name: "Moonlight Bay Knit",
+        price: 115.99,
+        img: `${card13}`,
+        rating: 4.6,
+        reviews: 4,
     },
     {
         name: "Martha Knit Top",
@@ -44,6 +55,13 @@ const products = [
         img: `${card7}`,
         rating: 4.4,
         reviews: 2,
+    },
+    {
+        name: "Innerbloom Puffer Jacket",
+        price: 179.99,
+        img: `${card5}`,
+        rating: 4.2,
+        reviews: 3,
     },
 ];
 

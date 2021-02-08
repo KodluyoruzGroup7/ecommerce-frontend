@@ -44,9 +44,9 @@ function Navbar() {
                     </Link>
                 </Menu.Item>
 
-                <Menu.Item key="kids">
+                <Menu.Item key="shoes">
                     <Link to="/" target="_blank" rel="noopener noreferrer">
-                        Kids
+                        Shoes
                     </Link>
                 </Menu.Item>
 
