@@ -1,0 +1,29 @@
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 0 0 10%;
+  padding-right: 0.625rem;
+  height: 29.0625rem;
+}
+
+.icon {
+  background-color: red;
+  padding: 0.5rem;
+  position: absolute;
+  left: 50%;
+  font-size: 2rem;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.iconUp {
+  top: 0;
+}
+
+.iconDown {
+  bottom: 0;
+}
