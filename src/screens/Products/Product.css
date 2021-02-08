@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.collection {
+    flex: 0 0 20%;
+    margin-right: 5%;
+}
+
+.product-list {
+    flex: 0 0 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list-item {
+    flex: 0 0 32%;
+    margin-right: 2%;
+    margin-bottom: 1rem;
+}
+
+.product-list-item:nth-child(3n + 0) {
+    margin-right: 0;
+}
