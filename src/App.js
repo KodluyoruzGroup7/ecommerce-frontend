@@ -5,12 +5,16 @@ import "./App.less";
 import Layout from "./components/Layout/Layout";
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
+import Products from "./screens/Products/Products";
 
 function App() {
     return (
         <Router>
             <Layout>
                 <Switch>
+                    <Route path="/products">
+                        <Products />
+                    </Route>
                     <Route path="/details">
                         <ProductDetailScreen />
                     </Route>
