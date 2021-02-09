@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { HoverDropdown } from './Dropdown/Dropdown';
 import "./navbar.css";
 
-import { Menu } from "antd";
+import { Menu, Dropdown } from "antd";
 import {
     ShopOutlined,
     SearchOutlined,
     HeartOutlined,
     ShoppingOutlined,
+    UserOutlined
 } from "@ant-design/icons";
 
 function Navbar() {
@@ -58,9 +59,15 @@ function Navbar() {
             </Menu>
 
             <div className="menu-right">
-                <Link href="#">
+                <Link to='#'>
                     <SearchOutlined />
                 </Link>
+
+                <Dropdown overlay={HoverDropdown} onClick={e => e.preventDefault()}>
+                    <Link>
+                        <UserOutlined />
+                    </Link>
+                </Dropdown>
                 <Link to="#">
                     <HeartOutlined />
                 </Link>
@@ -68,6 +75,7 @@ function Navbar() {
                     <ShoppingOutlined />
                 </Link>
             </div>
+
         </div>
     );
 }
