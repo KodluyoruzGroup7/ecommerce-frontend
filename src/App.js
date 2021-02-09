@@ -6,7 +6,8 @@ import Layout from "./components/Layout/Layout";
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
 import Products from "./screens/Products/Products";
-import Login from './screens/Login/Login';
+import Login from './screens/Auth/Login';
+import Register from "./screens/Auth/Register";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
                     </Route>
                     <Route path="/login">
                         <Login />
+                    </Route>
+                    <Route path="/register">
+                        <Register />
                     </Route>
                     <Route path="/">
                         <HomeScreen />
