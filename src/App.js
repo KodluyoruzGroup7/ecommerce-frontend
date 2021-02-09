@@ -8,6 +8,8 @@ import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
 import Products from "./screens/Products/Products";
 import Login from './screens/Auth/Login';
 import Register from "./screens/Auth/Register";
+import Wishlist from "./screens/Wishlist/Wishlist";
+
 
 function App() {
     return (
@@ -19,6 +21,9 @@ function App() {
                     </Route>
                     <Route path="/details">
                         <ProductDetailScreen />
+                    </Route>
+                    <Route path="/wishlist">
+                        <Wishlist />
                     </Route>
                     <Route path="/login">
                         <Login />

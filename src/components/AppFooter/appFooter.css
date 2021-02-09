@@ -104,3 +104,7 @@ h3.title-text {
     color: white;
     border-color: rgba(0, 0, 0, 0.8);
 }
+
+.ant-layout-footer {
+    background-color: white;
+}
