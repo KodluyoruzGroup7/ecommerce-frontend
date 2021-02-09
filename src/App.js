@@ -6,6 +6,7 @@ import Layout from "./components/Layout/Layout";
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
 import Products from "./screens/Products/Products";
+import Login from './screens/Login/Login';
 
 function App() {
     return (
@@ -17,6 +18,9 @@ function App() {
                     </Route>
                     <Route path="/details">
                         <ProductDetailScreen />
+                    </Route>
+                    <Route path="/login">
+                        <Login />
                     </Route>
                     <Route path="/">
                         <HomeScreen />
