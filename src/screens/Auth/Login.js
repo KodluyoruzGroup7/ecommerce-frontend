@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import styles from "./Login.module.css";
+import styles from "./Auth.module.css";
 
 const Login = () => {
     return (
@@ -12,8 +12,8 @@ const Login = () => {
                     <form className={styles.form}>
                         <h3>LOGIN</h3>
                         <p>If you have an account with us, please log in.</p>
-                        <input type='email' name='email' id='email' placeholder='Email'/>
-                        <input type='password' name='password' id='password' placeholder='Password'/>
+                        <input type='email' name='email' id='email' placeholder='Email' />
+                        <input type='password' name='password' id='password' placeholder='Password' />
                         <button className={styles.button}>Login</button>
                         <button className={`${styles.button} ${styles.forget}`}>Forgot your password?</button>
                     </form>
