@@ -70,12 +70,7 @@ const ProductCard = ({ product }) => {
             <div>
                 <div className="rating-section">
                     <div className="stars-rating">
-                        <Rating />
-                    </div>
-                    <div className="reviews-text">
-                        <span className="reviews-text">
-                            {`${product.reviews}`} reviews
-                        </span>
+                        <Rating numberOfReviews={product.reviews} value={4.2} />
                     </div>
                     <div className="c-price">
                         <span>{`${product.price} ₺`}</span>
