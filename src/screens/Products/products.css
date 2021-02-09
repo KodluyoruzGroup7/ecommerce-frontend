@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.collection {
+    margin-top: 1.6rem;
+    flex: 0 0 20%;
+    margin-right: 5%;
+}
+
+.product-list {
+    flex: 0 0 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list-item {
+    flex: 0 0 32%;
+    margin-right: 2%;
+    margin-bottom: 1rem;
+}
+
+.product-list-item:nth-child(3n + 0) {
+    margin-right: 0;
+}
+
+.Rating_text__HC91j {
+    display: none;
+}
+
+.collection-header {
+    font-weight: bold;
+}
+
+.categories-item {
+    list-style: none;
+    color: black;
+    margin: 0.2rem;
+}
+
+.categories-item:hover,
+.categories-item:active {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+
+.size-header,
+.price-header {
+    font-weight: bold;
+    margin-top: 1.8rem;
+}
+
+.size-section label,
+.price-section label {
+    display: block;
+}
+
+.ant-checkbox-input:hover {
+    border-color: black !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: black;
+    border-color: black !important;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner,
+.ant-checkbox-checked:hover,
+.ant-checkbox-checked:active,
+.ant-checkbox-checked:focus,
+.ant-checkbox-checked::after {
+    border-color: black !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+    background-color: black;
+    border-color: black !important;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin: 6px 0px 6px 0px;
+}
+
+.ant-checkbox-wrapper {
+    font-size: 0.8rem;
+}

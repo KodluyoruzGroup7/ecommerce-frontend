@@ -14,12 +14,12 @@ import {
 
 const ProductCard = ({ product }) => {
     return (
-        <div className="card__container">
+        <div className="productcard__container">
             <Link>
-                <div className="card__top__section">
+                <div className="productcard__top__section">
                     <img alt={product.name} src={`${product.img}`} />
-                    <div className="card__top__section__icons">
-                        <div className="card__top__section__icon__border">
+                    <div className="productcard__top__section__icons">
+                        <div className="productcard__top__section__icon__border">
                             <Link
                                 to="/"
                                 target="_blank"
@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
                                 />
                             </Link>
                         </div>
-                        <div className="card__top__section__icon__border">
+                        <div className="productcard__top__section__icon__border">
                             <Link
                                 to="/"
                                 target="_blank"
@@ -45,7 +45,7 @@ const ProductCard = ({ product }) => {
                                 />
                             </Link>
                         </div>
-                        <div className="card__top__section__icon__border">
+                        <div className="productcard__top__section__icon__border">
                             <Link
                                 to="/"
                                 target="_blank"
@@ -61,7 +61,7 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
             </Link>
-            <div className="card__body__section">
+            <div className="productcard__body__section">
                 <p>{`${product.name}`}</p>
                 {/* <span>
                             A nice blue shirt for men. One size fit all.
