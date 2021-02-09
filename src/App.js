@@ -7,6 +7,7 @@ import HomeScreen from "./screens/HomeScreen/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
 import Products from "./screens/Products/Products";
 import Wishlist from "./screens/Wishlist/Wishlist";
+import Login from './screens/Login/Login';
 
 function App() {
     return (
@@ -21,6 +22,8 @@ function App() {
                     </Route>
                     <Route path="/wishlist">
                         <Wishlist />
+                    <Route path="/login">
+                        <Login />
                     </Route>
                     <Route path="/">
                         <HomeScreen />

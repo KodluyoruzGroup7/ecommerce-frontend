@@ -1,0 +1,15 @@
+.review {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.content > * {
+  margin-bottom: 0.5rem;
+}
+
+.report {
+  align-self: flex-end;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+}
