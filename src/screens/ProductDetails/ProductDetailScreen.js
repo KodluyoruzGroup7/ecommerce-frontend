@@ -9,6 +9,8 @@ import shoes2Sm from '../../images/shoes/shoes-2-sm.webp';
 import shoes2Xl from '../../images/shoes/shoes-2-xl.webp';
 import shoes3Sm from '../../images/shoes/shoes-3-sm.webp';
 import shoes3Xl from '../../images/shoes/shoes-3-xl.webp';
+import ProductDetailTabs from '../../components/ProductDetails/ProductDetailTabs/ProductDetailTabs';
+import ProductSwiper from '../../components/ProductSwiper/ProductSwiper';
 
 const images = [
   {
@@ -97,6 +99,8 @@ const ProductDetailScreen = () => {
         />
         <ProductDetail />
       </div>
+      <ProductDetailTabs />
+      <ProductSwiper />
     </section>
   );
 };
