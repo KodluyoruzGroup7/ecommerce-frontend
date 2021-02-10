@@ -5,8 +5,12 @@ import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import styles from './ProductSlider.module.css';
 import Slider from './Slider/Slider';
 
-function ProductSlider({ images, currentIndex, imageChangeHandler, updateIndexHandler }) {
-
+function ProductSlider({
+  images,
+  currentIndex,
+  imageChangeHandler,
+  updateIndexHandler,
+}) {
   return (
     <div className={styles.slider}>
       {images.map((img, index) => (
@@ -18,17 +22,25 @@ function ProductSlider({ images, currentIndex, imageChangeHandler, updateIndexHa
           imageChangeHandler={imageChangeHandler}
         />
       ))}
-      <FontAwesomeIcon icon={faChevronDown} className={`${styles.icon} ${styles.iconDown}`} onClick={() => updateIndexHandler("down")} />
-      <FontAwesomeIcon icon={faChevronUp} className={`${styles.icon} ${styles.iconUp}`} onClick={() => updateIndexHandler("up")} />
+      <FontAwesomeIcon
+        icon={faChevronDown}
+        className={`${styles.icon} ${styles.iconDown}`}
+        onClick={() => updateIndexHandler('down')}
+      />
+      <FontAwesomeIcon
+        icon={faChevronUp}
+        className={`${styles.icon} ${styles.iconUp}`}
+        onClick={() => updateIndexHandler('up')}
+      />
     </div>
-  )
-};
+  );
+}
 
 ProductSlider.propTypes = {
   images: PropTypes.array.isRequired,
   imageChangeHandler: PropTypes.func.isRequired,
   updateIndexHandler: PropTypes.func.isRequired,
-  currentIndex: PropTypes.number.isRequired
+  currentIndex: PropTypes.number.isRequired,
 };
 
 export default ProductSlider;

@@ -16,63 +16,61 @@ const images = [
   {
     id: 1,
     imageSm: shoes1Sm,
-    imageXl: shoes1Xl
+    imageXl: shoes1Xl,
   },
   {
     id: 2,
     imageSm: shoes2Sm,
-    imageXl: shoes2Xl
+    imageXl: shoes2Xl,
   },
   {
     id: 3,
     imageSm: shoes3Sm,
-    imageXl: shoes3Xl
+    imageXl: shoes3Xl,
   },
   {
     id: 4,
     imageSm: shoes1Sm,
-    imageXl: shoes1Xl
+    imageXl: shoes1Xl,
   },
   {
     id: 5,
     imageSm: shoes2Sm,
-    imageXl: shoes2Xl
+    imageXl: shoes2Xl,
   },
   {
     id: 6,
     imageSm: shoes3Sm,
-    imageXl: shoes3Xl
+    imageXl: shoes3Xl,
   },
   {
     id: 7,
     imageSm: shoes1Sm,
-    imageXl: shoes1Xl
+    imageXl: shoes1Xl,
   },
   {
     id: 8,
     imageSm: shoes2Sm,
-    imageXl: shoes2Xl
+    imageXl: shoes2Xl,
   },
   {
     id: 9,
     imageSm: shoes3Sm,
-    imageXl: shoes3Xl
+    imageXl: shoes3Xl,
   },
-]
+];
 
 const ProductDetailScreen = () => {
-
   const [currentImage, setCurrentImage] = useState(images[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const imageChangeHandler = index => {
+  const imageChangeHandler = (index) => {
     setCurrentImage(images[index]);
     setCurrentIndex(index);
   };
 
-
   const updateIndexHandler = (type) => {
-    if (type === "down") {
+    if (type === 'down') {
       if (currentIndex + 1 < images.length) {
         setCurrentIndex(currentIndex + 1);
         imageChangeHandler(currentIndex + 1);
@@ -94,9 +92,7 @@ const ProductDetailScreen = () => {
           imageChangeHandler={imageChangeHandler}
           updateIndexHandler={updateIndexHandler}
         />
-        <ProductImageZoomer
-          currentImage={currentImage}
-        />
+        <ProductImageZoomer currentImage={currentImage} />
         <ProductDetail />
       </div>
       <ProductDetailTabs />
@@ -104,6 +100,5 @@ const ProductDetailScreen = () => {
     </section>
   );
 };
-
 
 export default ProductDetailScreen;
