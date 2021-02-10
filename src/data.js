@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   {
     id: 1,
     name: 'Martha Knit Top',
@@ -2641,5 +2641,3 @@ const products = [
     description: ``,
   },
 ];
-
-export default products;
