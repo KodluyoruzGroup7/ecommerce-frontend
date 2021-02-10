@@ -5,10 +5,10 @@ import Layout from "./components/Layout/Layout";
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetails/ProductDetailScreen";
 import Products from "./screens/Products/Products";
-import Login from './screens/Auth/Login';
+import Login from "./screens/Auth/Login";
 import Register from "./screens/Auth/Register";
 import Wishlist from "./screens/Wishlist/Wishlist";
-
+import Cart from "./screens/Cart/Cart";
 
 function App() {
     return (
@@ -29,6 +29,9 @@ function App() {
                     </Route>
                     <Route path="/register">
                         <Register />
+                    </Route>
+                    <Route path="/cart">
+                        <Cart />
                     </Route>
                     <Route path="/">
                         <HomeScreen />
