@@ -9,35 +9,41 @@ import Login from './screens/Auth/Login';
 import Register from './screens/Auth/Register';
 import Wishlist from './screens/Wishlist/Wishlist';
 import Cart from './screens/Cart/Cart';
+import { CartContextProvider } from './contexts/CartContext';
+import { WishlistContextProvider } from './contexts/WishlistContext';
 
 function App() {
   return (
     <Router>
-      <Layout>
-        <Switch>
-          <Route path='/products'>
-            <Products />
-          </Route>
-          <Route path='/details'>
-            <ProductDetailScreen />
-          </Route>
-          <Route path='/wishlist'>
-            <Wishlist />
-          </Route>
-          <Route path='/login'>
-            <Login />
-          </Route>
-          <Route path='/register'>
-            <Register />
-          </Route>
-          <Route path='/cart'>
-            <Cart />
-          </Route>
-          <Route path='/'>
-            <HomeScreen />
-          </Route>
-        </Switch>
-      </Layout>
+      <CartContextProvider>
+        <WishlistContextProvider>
+          <Layout>
+            <Switch>
+              <Route path='/products'>
+                <Products />
+              </Route>
+              <Route path='/details'>
+                <ProductDetailScreen />
+              </Route>
+              <Route path='/wishlist'>
+                <Wishlist />
+              </Route>
+              <Route path='/login'>
+                <Login />
+              </Route>
+              <Route path='/register'>
+                <Register />
+              </Route>
+              <Route path='/cart'>
+                <Cart />
+              </Route>
+              <Route path='/'>
+                <HomeScreen />
+              </Route>
+            </Switch>
+          </Layout>
+        </WishlistContextProvider>
+      </CartContextProvider>
     </Router>
   );
 }
