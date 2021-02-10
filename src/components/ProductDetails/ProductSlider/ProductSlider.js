@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import styles from './ProductSlider.module.css';
@@ -21,6 +22,13 @@ function ProductSlider({ images, currentIndex, imageChangeHandler, updateIndexHa
       <FontAwesomeIcon icon={faChevronUp} className={`${styles.icon} ${styles.iconUp}`} onClick={() => updateIndexHandler("up")} />
     </div>
   )
+};
+
+ProductSlider.propTypes = {
+  images: PropTypes.array.isRequired,
+  imageChangeHandler: PropTypes.func.isRequired,
+  updateIndexHandler: PropTypes.func.isRequired,
+  currentIndex: PropTypes.number.isRequired
 };
 
 export default ProductSlider;

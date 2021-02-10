@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+  box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+  margin: 0 auto;
+  border-radius: 8px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 60px;
+}

@@ -76,7 +76,7 @@ Rating.propTypes = {
 };
 
 Rating.defaultProps = {
-    color: "#f8e825",
+    color: "#ffb503",
     numberOfReviews: 0,
 };
 
