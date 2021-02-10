@@ -8,13 +8,15 @@ import styles from './productCard.module.css';
 const ProductCard = ({ product }) => {
   return (
     <div className={styles.wrapper}>
-      <CardImg name={product.name} imgUrl={product.img} />
-      <CardContent
-        name={product.name}
-        price={product.price}
-        numOfReviews={product.reviews}
-        ratingValue={4.2}
-      />
+      <Link to='/details' className={styles.anchor}>
+        <CardImg name={product.name} imgUrl={product.img} />
+        <CardContent
+          name={product.name}
+          price={product.price}
+          numOfReviews={product.reviews}
+          ratingValue={4.2}
+        />
+      </Link>
     </div>
   );
 };

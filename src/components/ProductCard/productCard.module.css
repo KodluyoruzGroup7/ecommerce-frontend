@@ -9,3 +9,11 @@
   top: 30px;
   margin-bottom: 60px;
 }
+
+.anchor {
+  color: #000;
+}
+
+.anchor:hover {
+  color: #000;
+}
