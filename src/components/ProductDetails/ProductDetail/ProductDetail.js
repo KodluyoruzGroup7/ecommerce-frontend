@@ -1,7 +1,11 @@
 import React from 'react';
 import Ratings from '../../UI/Rating/Rating';
-import {faPaperPlane, faHeart, faEnvelope} from '@fortawesome/free-regular-svg-icons';
-import {faPlus,faMinus} from '@fortawesome/free-solid-svg-icons';
+import {
+  faPaperPlane,
+  faHeart,
+  faEnvelope,
+} from '@fortawesome/free-regular-svg-icons';
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import styles from './ProductDetail.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -18,9 +22,11 @@ function ProductDetail() {
       <span className={styles.tax}>Tax included.</span>
       <div className={styles.quantityMessage}>Hurry, Only 4 Left!</div>
       <div className={styles.colors}>
-        <h3>COLOR: <span className={styles.selectedColor}>GREEN</span></h3>
+        <h3>
+          COLOR: <span className={styles.selectedColor}>GREEN</span>
+        </h3>
         <div className={styles.colorOptions}>
-          <div className={[styles.colorBox,styles.active].join(' ')}></div>
+          <div className={[styles.colorBox, styles.active].join(' ')}></div>
           <div className={styles.colorBox}></div>
           <div className={styles.colorBox}></div>
           <div className={styles.colorBox}></div>
@@ -28,9 +34,11 @@ function ProductDetail() {
         </div>
       </div>
       <div className={styles.sizeContainer}>
-        <h3>SIZE: <span className={styles.selectedColor}>S</span></h3>
+        <h3>
+          SIZE: <span className={styles.selectedColor}>S</span>
+        </h3>
         <div className={styles.colorOptions}>
-          <div className={[styles.sizeBox,styles.active].join(' ')}>S</div>
+          <div className={[styles.sizeBox, styles.active].join(' ')}>S</div>
           <div className={styles.sizeBox}>M</div>
           <div className={styles.sizeBox}>XL</div>
         </div>
@@ -59,6 +67,6 @@ function ProductDetail() {
       </div>
     </div>
   );
-};
+}
 
 export default ProductDetail;
