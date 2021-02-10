@@ -15,6 +15,7 @@ import card13 from "../../images/swiper-cards/swiper-card-7/blue-1.jpg";
 
 const products = [
     {
+        id: 1,
         name: "Button Up Top Black",
         price: 129.99,
         img: `${card1}`,
@@ -22,6 +23,7 @@ const products = [
         reviews: 5,
     },
     {
+        id: 2,
         name: "Emotion Mini Dress",
         price: 109.99,
         img: `${card11}`,
@@ -29,6 +31,7 @@ const products = [
         reviews: 8,
     },
     {
+        id: 3,
         name: "Moonlight Bay Knit",
         price: 115.99,
         img: `${card13}`,
@@ -36,6 +39,7 @@ const products = [
         reviews: 4,
     },
     {
+        id: 4,
         name: "Martha Knit Top",
         price: 139.99,
         img: `${card3}`,
@@ -43,6 +47,7 @@ const products = [
         reviews: 7,
     },
     {
+        id: 5,
         name: "Backpack with Contrast Bow",
         price: 99.99,
         img: `${card9}`,
@@ -50,6 +55,7 @@ const products = [
         reviews: 6,
     },
     {
+        id: 6,
         name: "Toledo Mules Shoes",
         price: 119.99,
         img: `${card7}`,
@@ -57,6 +63,7 @@ const products = [
         reviews: 2,
     },
     {
+        id: 7,
         name: "Innerbloom Puffer Jacket",
         price: 179.99,
         img: `${card5}`,

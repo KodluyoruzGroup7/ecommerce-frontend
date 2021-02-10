@@ -38,49 +38,46 @@ const AppFooter = () => {
                     <div className="social-logos">
                         <Link
                             to="/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        ></Link>
-                        <FontAwesomeIcon
-                            icon={faFacebookF}
-                            color="black"
-                            size="lg"
-                        />
-                        <Link />
+                        >
+                            <FontAwesomeIcon
+                                icon={faFacebookF}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
 
                         <Link
                             to="/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        ></Link>
-                        <FontAwesomeIcon
-                            icon={faTwitter}
-                            color="black"
-                            size="lg"
-                        />
-                        <Link />
+
+                        >
+                            <FontAwesomeIcon
+                                icon={faTwitter}
+                                color="black"
+                                size="lg"
+                            />
+
+                        </Link>
                         <Link
                             to="/"
                             target="_blank"
                             rel="noopener noreferrer"
-                        ></Link>
-                        <FontAwesomeIcon
-                            icon={faInstagram}
-                            color="black"
-                            size="lg"
-                        />
-                        <Link />
+                        >
+                            <FontAwesomeIcon
+                                icon={faInstagram}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
                         <Link
                             to="/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        ></Link>
-                        <FontAwesomeIcon
-                            icon={faPinterestP}
-                            color="black"
-                            size="lg"
-                        />
-                        <Link />
+                        >
+                            <FontAwesomeIcon
+                                icon={faPinterestP}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
+
                     </div>
                 </div>
                 <div className="info">
@@ -89,8 +86,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 About us
                             </Link>
@@ -98,8 +93,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Contact Us
                             </Link>
@@ -107,8 +100,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Career
                             </Link>
@@ -116,8 +107,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 My Account
                             </Link>
@@ -125,8 +114,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Orders and Returns
                             </Link>
@@ -139,8 +126,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Women
                             </Link>
@@ -148,8 +133,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Men
                             </Link>
@@ -157,8 +140,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Accessories
                             </Link>
@@ -166,8 +147,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Shoes
                             </Link>
@@ -180,8 +159,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Help & FAQs
                             </Link>
@@ -189,8 +166,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Returns Policy
                             </Link>
@@ -198,8 +173,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Terms & Conditions
                             </Link>
@@ -207,8 +180,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Privacy Policy
                             </Link>
@@ -216,8 +187,6 @@ const AppFooter = () => {
                         <li>
                             <Link
                                 to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Support Center
                             </Link>

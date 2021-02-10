@@ -8,13 +8,13 @@ import { Menu } from 'antd';
 export const HoverDropdown = (
   <Menu className="navbar__dropdown">
     <Menu.Item>
-      <Link className="login__btn">
+      <Link to="/login" className="login__btn">
         Sign In
       </Link>
     </Menu.Item>
     <Menu.Item>
       Don't have an account?
-      <Link className="login__btn sign__in">
+      <Link to="/register" className="login__btn sign__in">
         Sign Up
       </Link>
     </Menu.Item>
