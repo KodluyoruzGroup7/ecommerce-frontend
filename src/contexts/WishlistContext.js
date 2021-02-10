@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
+import { getProductById } from '../services';
 
 const WishlistContext = createContext({});
 
@@ -15,14 +16,23 @@ const WishlistContext = createContext({});
 */
 
 export const WishlistContextProvider = ({ children }) => {
+  const [itemId, setWishlistItem] = useState();
   const [wishlist, setWishlist] = useState([]);
+
   useEffect(() => {
-    /* 
-      id => product => stock, price ,name img
-    */
-  }, [wishlist]);
+    const { quantity, price, name, imgMain } = getProductById(itemId);
+    const whislistItem = {
+      id: itemId,
+      price,
+      name,
+      imgMain,
+      quantity,
+    };
+    setWishlist([...wishlist, whislistItem]);
+  }, [itemId]);
+
   return (
-    <WishlistContext.Provider value='deneme'>
+    <WishlistContext.Provider value={{ wishlist, setWishlistItem }}>
       {children}
     </WishlistContext.Provider>
   );

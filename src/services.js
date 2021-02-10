@@ -2,7 +2,7 @@ import { products as DATA } from './data';
 
 export const getAllProducts = () => DATA;
 
-export const getProduct = (id) => {
+export const getProductById = (id) => {
   try {
     const product = DATA.filter((p) => p.id === id);
     if (!product) {
