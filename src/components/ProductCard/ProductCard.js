@@ -1,76 +1,26 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-import "./productCard.css";
-
-import Rating from "../UI/Rating/Rating";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-regular-svg-icons";
-import {
-    faShoppingBasket,
-    faShareAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import CardContent from './CardContent/CardContent';
+import CardImg from './CardImg/CardImg';
+import styles from './productCard.module.css';
 
 const ProductCard = ({ product }) => {
-    return (
-        <div className="productcard__container">
-            <div className="productcard__top__section">
-                <img alt={product.name} src={`${product.img}`} />
-                <div className="productcard__top__section__icons">
-                    <div className="productcard__top__section__icon__border">
-                        <Link
-                            to="/"
-                        >
-                            <FontAwesomeIcon
-                                icon={faHeart}
-                                color="black"
-                                size="lg"
-                            />
-                        </Link>
-                    </div>
-                    <div className="productcard__top__section__icon__border">
-                        <Link
-                            to="/"
-                        >
-                            <FontAwesomeIcon
-                                icon={faShareAlt}
-                                color="black"
-                                size="lg"
-                            />
-                        </Link>
-                    </div>
-                    <div className="productcard__top__section__icon__border">
-                        <Link
-                            to="/"
-                        >
-                            <FontAwesomeIcon
-                                icon={faShoppingBasket}
-                                color="black"
-                                size="lg"
-                            />
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="productcard__body__section">
-                <p>{`${product.name}`}</p>
-                {/* <span>
-                            A nice blue shirt for men. One size fit all.
-                        </span> */}
-            </div>
-            <div>
-                <div className="rating-section">
-                    <div className="stars-rating">
-                        <Rating numberOfReviews={product.reviews} value={4.2} />
-                    </div>
-                    <div className="c-price">
-                        <span>{`${product.price} ₺`}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div className={styles.wrapper}>
+      <CardImg name={product.name} imgUrl={product.img} />
+      <CardContent
+        name={product.name}
+        price={product.price}
+        numOfReviews={product.reviews}
+        ratingValue={4.2}
+      />
+    </div>
+  );
+};
+
+ProductCard.propTypes = {
+  product: PropTypes.object.isRequired,
 };
 
 export default ProductCard;

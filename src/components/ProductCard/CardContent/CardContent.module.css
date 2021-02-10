@@ -1,0 +1,11 @@
+.content {
+  text-align: center;
+  padding: 0.5rem 0.3125rem;
+}
+
+.price {
+  display: block;
+  margin-top: 0.3125rem;
+  margin-bottom: 0.625rem;
+  font-size: 0.875rem;
+}
