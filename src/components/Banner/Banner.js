@@ -18,7 +18,6 @@ const Banner = () => {
                         <FontAwesomeIcon
                             icon={faShippingFast}
                             color="white"
-                            size="xl"
                         />
                     </div>
                     <div className="banner-description">
@@ -35,7 +34,6 @@ const Banner = () => {
                         <FontAwesomeIcon
                             icon={faHandHoldingUsd}
                             color="white"
-                            size="xl"
                         />
                     </div>
                     <div className="banner-description">
@@ -47,7 +45,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-support">
                     <div className="banner-icon">
-                        <FontAwesomeIcon icon={faTty} color="white" size="xl" />
+                        <FontAwesomeIcon icon={faTty} color="white" />
                     </div>
                     <div className="banner-description">
                         <h3 className="banner-header">ONLINE SUPPORT</h3>

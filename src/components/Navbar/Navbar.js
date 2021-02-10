@@ -64,14 +64,14 @@ function Navbar() {
                 </Link>
 
                 <Dropdown overlay={HoverDropdown} onClick={e => e.preventDefault()}>
-                    <Link>
+                    <Link to='#'>
                         <UserOutlined />
                     </Link>
                 </Dropdown>
-                <Link to="#">
+                <Link to="/wishlist">
                     <HeartOutlined />
                 </Link>
-                <Link to="#">
+                <Link to="/cart">
                     <ShoppingOutlined />
                 </Link>
             </div>

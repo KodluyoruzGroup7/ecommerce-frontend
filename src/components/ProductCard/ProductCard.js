@@ -15,52 +15,44 @@ import {
 const ProductCard = ({ product }) => {
     return (
         <div className="productcard__container">
-            <Link>
-                <div className="productcard__top__section">
-                    <img alt={product.name} src={`${product.img}`} />
-                    <div className="productcard__top__section__icons">
-                        <div className="productcard__top__section__icon__border">
-                            <Link
-                                to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faHeart}
-                                    color="black"
-                                    size="lg"
-                                />
-                            </Link>
-                        </div>
-                        <div className="productcard__top__section__icon__border">
-                            <Link
-                                to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faShareAlt}
-                                    color="black"
-                                    size="lg"
-                                />
-                            </Link>
-                        </div>
-                        <div className="productcard__top__section__icon__border">
-                            <Link
-                                to="/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faShoppingBasket}
-                                    color="black"
-                                    size="lg"
-                                />
-                            </Link>
-                        </div>
+            <div className="productcard__top__section">
+                <img alt={product.name} src={`${product.img}`} />
+                <div className="productcard__top__section__icons">
+                    <div className="productcard__top__section__icon__border">
+                        <Link
+                            to="/"
+                        >
+                            <FontAwesomeIcon
+                                icon={faHeart}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
+                    </div>
+                    <div className="productcard__top__section__icon__border">
+                        <Link
+                            to="/"
+                        >
+                            <FontAwesomeIcon
+                                icon={faShareAlt}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
+                    </div>
+                    <div className="productcard__top__section__icon__border">
+                        <Link
+                            to="/"
+                        >
+                            <FontAwesomeIcon
+                                icon={faShoppingBasket}
+                                color="black"
+                                size="lg"
+                            />
+                        </Link>
                     </div>
                 </div>
-            </Link>
+            </div>
             <div className="productcard__body__section">
                 <p>{`${product.name}`}</p>
                 {/* <span>
