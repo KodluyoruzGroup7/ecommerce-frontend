@@ -16,7 +16,6 @@ function Navbar() {
   const [selectedMenu, setSelectedMenu] = useState('');
 
   const menuClickHandler = (e) => {
-    console.log('click ', e);
     setSelectedMenu(e.key);
   };
 
