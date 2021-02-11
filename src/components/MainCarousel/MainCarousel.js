@@ -1,10 +1,7 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './mainCarousel.css';
-
-import { Carousel } from 'antd';
-import { Button } from 'antd';
-
+import { Carousel, Button } from 'antd';
 import banner1 from '../../images/carousel/crsl01.jpg';
 import banner2 from '../../images/carousel/crsl02.jpg';
 
@@ -30,7 +27,9 @@ function MainCarousel() {
       <div className='carousel-text'>
         <h1>It's your time to be Icon</h1>
         <p>Check all trending products</p>
-        <Button className='carousel-btn'>SHOP NOW</Button>
+        <Link to='/products' className='carousel-btn'>
+          SHOP NOW
+        </Link>
       </div>
     </div>
   );

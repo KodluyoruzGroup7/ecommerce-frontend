@@ -25,3 +25,11 @@ export const getProductsByCategory = (category) => {
     console.log(err);
   }
 };
+
+export const getProductsRandomly = () => {
+  let random = Math.floor(Math.random() * DATA.length) + 1;
+  if (random > 32) {
+    random -= 8;
+  }
+  return DATA.slice(random, random + 8);
+};

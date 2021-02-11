@@ -5,16 +5,20 @@ import CardContent from './CardContent/CardContent';
 import CardImg from './CardImg/CardImg';
 import styles from './productCard.module.css';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, isWishlist }) => {
   return (
     <div className={styles.wrapper}>
       <Link to='/details' className={styles.anchor}>
-        <CardImg name={product.name} imgUrl={product.img} />
+        <CardImg
+          name={product.name}
+          imgUrl={product.imgMain}
+          isWishlist={isWishlist}
+        />
         <CardContent
           name={product.name}
           price={product.price}
-          numOfReviews={product.reviews}
-          ratingValue={4.2}
+          numOfReviews={product.reviews.length}
+          ratingValue={product.rating}
         />
       </Link>
     </div>

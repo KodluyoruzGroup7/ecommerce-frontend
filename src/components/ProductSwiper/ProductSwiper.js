@@ -1,8 +1,6 @@
 import React from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 
-import products from './productSwiperData';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -15,7 +13,7 @@ import 'swiper/components/zoom/zoom.scss';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const ProductSwiper = () => {
+const ProductSwiper = ({ products }) => {
   return (
     <Swiper
       spaceBetween={50}

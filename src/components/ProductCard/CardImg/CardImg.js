@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import {
   faShoppingBasket,
   faShareAlt,
+  faHeart as filled,
 } from '@fortawesome/free-solid-svg-icons';
 import styles from './CardImg.module.css';
 
-const CardImg = ({ name, imgUrl }) => {
+const CardImg = ({ name, imgUrl, isWishlist }) => {
   return (
     <div className={styles.card}>
       <img src={imgUrl} alt={name} />
@@ -16,8 +17,8 @@ const CardImg = ({ name, imgUrl }) => {
         <div className={styles.iconWrapper}>
           <FontAwesomeIcon
             className={styles.icon}
-            icon={faHeart}
-            color='black'
+            icon={isWishlist ? filled : faHeart}
+            color={isWishlist ? 'red' : 'black'}
             size='lg'
           />
         </div>

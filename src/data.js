@@ -17,36 +17,36 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/martha-knit-top/martha-knit-top-green-01.jpg',
+      'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-01.jpg',
     images: [
       {
         black: [
-          './images/collections/women/martha-knit-top/martha-knit-top-black-02.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-03.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-04.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-05.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-06.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-07.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-08.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-black-09.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-02.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-03.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-04.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-05.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-06.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-07.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-08.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-black-09.jpg',
         ],
       },
       {
         green: [
-          './images/collections/women/martha-knit-top/martha-knit-top-green-01.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-02.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-03.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-04.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-05.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-06.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-green-07.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-01.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-02.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-03.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-04.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-05.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-06.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-green-07.jpg',
         ],
       },
       {
         pink: [
-          './images/collections/women/martha-knit-top/martha-knit-top-pink-01.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-pink-02.jpg',
-          './images/collections/women/martha-knit-top/martha-knit-top-pink-03.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-pink-01.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-pink-02.jpg',
+          'http://localhost:4000/images/collections/women/martha-knit-top/martha-knit-top-pink-03.jpg',
         ],
       },
     ],
@@ -95,15 +95,15 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/button-up-top-black/button-up-top-black-01.jpg',
+      'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-01.jpg',
     images: [
       {
         black: [
-          './images/collections/women/button-up-top-black/button-up-top-black-01.jpg',
-          './images/collections/women/button-up-top-black/button-up-top-black-02.jpg',
-          './images/collections/women/button-up-top-black/button-up-top-black-03.jpg',
-          './images/collections/women/button-up-top-black/button-up-top-black-04.jpg',
-          './images/collections/women/button-up-top-black/button-up-top-black-05.jpg',
+          'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-01.jpg',
+          'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-02.jpg',
+          'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-03.jpg',
+          'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-04.jpg',
+          'http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-05.jpg',
         ],
       },
     ],
@@ -147,31 +147,31 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-01.jpg',
+      'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-01.jpg',
     images: [
       {
         pink: [
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-01.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-02.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-03.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-04.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-05.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-01.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-02.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-03.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-04.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-pink-05.jpg',
         ],
       },
       {
         blue: [
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-01.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-02.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-03.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-01.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-02.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-blue-03.jpg',
         ],
       },
       {
         black: [
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-01.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-02.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-03.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-04.jpg',
-          './images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-05.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-01.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-02.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-03.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-04.jpg',
+          'http://localhost:4000/images/collections/women/innerbloom-puffer-jacket/innerbloom-puffer-jacket-black-05.jpg',
         ],
       },
     ],
@@ -231,25 +231,25 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-01.jpg',
+      'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-01.jpg',
     images: [
       {
         pink: [
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-pink-01.jpg',
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-pink-01.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-pink-01.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-pink-01.jpg',
         ],
       },
       {
         grey: [
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-grey-01.jpg',
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-grey-02.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-grey-01.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-grey-02.jpg',
         ],
       },
       {
         black: [
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-01.jpg',
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-02.jpg',
-          './images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-03.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-01.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-02.jpg',
+          'http://localhost:4000/images/collections/accessories/backpack-with-contrast-bow/backpack-with-contrast-bow-black-03.jpg',
         ],
       },
     ],
@@ -283,22 +283,22 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-01.jpg',
+      'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-01.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-02.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-03.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-04.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-01.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-02.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-03.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-04.jpg',
         ],
       },
       {
         camel: [
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-01.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-02.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-03.jpg',
-          './images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-04.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-01.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-02.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-03.jpg',
+          'http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-camel-04.jpg',
         ],
       },
     ],
@@ -332,33 +332,33 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-01.jpg',
+      'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-01.jpg',
     images: [
       {
         blueRed: [
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-01.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-02.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-03.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-04.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-05.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-06.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-07.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-01.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-02.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-03.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-04.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-05.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-06.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-bluered-07.jpg',
         ],
       },
       {
         blackGrey: [
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-01.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-02.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-03.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-04.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-05.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-06.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-01.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-02.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-03.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-04.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-05.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackgrey-06.jpg',
         ],
       },
       {
         blackPink: [
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackpink-01.jpg',
-          './images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackpink-02.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackpink-01.jpg',
+          'http://localhost:4000/images/collections/women/sunset-sleep-scarf-top/sunset-sleep-scarf-top-blackpink-02.jpg',
         ],
       },
     ],
@@ -432,33 +432,33 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-01.jpg',
+      'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-01.jpg',
     images: [
       {
         sage: [
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-01.jpg',
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-02.jpg',
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-03.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-01.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-02.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-sage-03.jpg',
         ],
       },
       {
         blue: [
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-blue-01.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-blue-01.jpg',
         ],
       },
       {
         oliveGreen: [
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-olivegreen-01.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-olivegreen-01.jpg',
         ],
       },
       {
         green: [
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-green-01.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-green-01.jpg',
         ],
       },
       {
         pink: [
-          './images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-pink-01.jpg',
+          'http://localhost:4000/images/collections/women/high-neck-ribbed-knit/high-neck-ribbed-knit-pink-01.jpg',
         ],
       },
     ],
@@ -522,7 +522,7 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/trim-straw-floppy-hat/trim-straw-floppy-hat-01.jpg',
+      'http://localhost:4000/images/collections/accessories/trim-straw-floppy-hat/trim-straw-floppy-hat-01.jpg',
     images: [
       {
         black: [],
@@ -568,24 +568,24 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-orange-01.jpg',
+      'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-orange-01.jpg',
     images: [
       {
         orange: [
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-orange-01.jpg',
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-orange-02.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-orange-01.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-orange-02.jpg',
         ],
       },
       {
         red: [
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-red-01.jpg',
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-red-02.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-red-01.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-red-02.jpg',
         ],
       },
       {
         black: [
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-black-01.jpg',
-          './images/collections/accessories/metal-buckle-skinny-belt-orange/metal-buckle-skinny-belt-black-02.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-black-01.jpg',
+          'http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-black-02.jpg',
         ],
       },
     ],
@@ -629,12 +629,12 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-01.jpg',
+      'http://localhost:4000/images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-01.jpg',
-          './images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-02.jpg',
+          'http://localhost:4000/images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-01.jpg',
+          'http://localhost:4000/images/collections/accessories/design-cuff-bracelet/design-cuff-bracelet-02.jpg',
         ],
       },
     ],
@@ -668,12 +668,12 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/footprint-endant-necklace/footprint-endant-necklace-01.jpg',
+      'http://localhost:4000/images/collections/accessories/footprint-endant-necklace/footprint-endant-necklace-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/women/footprint-endant-necklace/footprint-endant-necklace-01.jpg',
-          './images/collections/women/footprint-endant-necklace/footprint-endant-necklace-02.jpg',
+          'http://localhost:4000/images/collections/accessories/footprint-endant-necklace/footprint-endant-necklace-01.jpg',
+          'http://localhost:4000/images/collections/accessories/footprint-endant-necklace/footprint-endant-necklace-02.jpg',
         ],
       },
     ],
@@ -717,17 +717,17 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-01.jpg',
+      'http://localhost:4000/images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-01.jpg',
     images: [
       {
         oliveGreen: [
-          './images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-01.jpg',
-          './images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-02.jpg',
+          'http://localhost:4000/images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-01.jpg',
+          'http://localhost:4000/images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-greenolive-02.jpg',
         ],
       },
       {
         burgundy: [
-          './images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-burgundy-01.jpg',
+          'http://localhost:4000/images/collections/shoes/top-slip-on-velcro-sneakers/top-slip-on-velcro-sneakers-burgundy-01.jpg',
         ],
       },
     ],
@@ -806,32 +806,32 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/emotion-mini-dress/emotion-mini-dress-white-01.jpg',
+      'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-white-01.jpg',
     images: [
       {
         white: [
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-white-01.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-white-02.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-white-03.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-white-04.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-white-01.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-white-02.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-white-03.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-white-04.jpg',
         ],
       },
       {
         emerald: [
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-01.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-02.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-03.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-01.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-02.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-emerald-03.jpg',
         ],
       },
       {
         purple: [
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-purple-01.jpg',
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-purple-02.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-purple-01.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-purple-02.jpg',
         ],
       },
       {
         red: [
-          './images/collections/women/emotion-mini-dress/emotion-mini-dress-red-01.jpg',
+          'http://localhost:4000/images/collections/women/emotion-mini-dress/emotion-mini-dress-red-01.jpg',
         ],
       },
     ],
@@ -909,13 +909,14 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/women/crop-top-green/crop-top-green-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/women/crop-top-green/crop-top-green-01.jpg',
     images: [
       {
         green: [
-          './images/collections/women/crop-top-green/crop-top-green-01.jpg',
-          './images/collections/women/crop-top-green/crop-top-green-02.jpg',
-          './images/collections/women/crop-top-green/crop-top-green-03.jpg',
+          'http://localhost:4000/images/collections/women/crop-top-green/crop-top-green-01.jpg',
+          'http://localhost:4000/images/collections/women/crop-top-green/crop-top-green-02.jpg',
+          'http://localhost:4000/images/collections/women/crop-top-green/crop-top-green-03.jpg',
         ],
       },
     ],
@@ -989,15 +990,15 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-01.jpg',
+      'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-01.jpg',
     images: [
       {
         white: [
-          './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-01.jpg',
-          './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-02.jpg',
-          './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-03.jpg',
-          './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-04.jpg',
-          './images/collections/women/speak-low-bodysuit/speak-low-bodysuit-05.jpg',
+          'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-01.jpg',
+          'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-02.jpg',
+          'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-03.jpg',
+          'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-04.jpg',
+          'http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-05.jpg',
         ],
       },
     ],
@@ -1066,17 +1067,17 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/night-runner-pants/night-runner-pants-01.jpg',
+      'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-01.jpg',
     images: [
       {
         black: [
-          './images/collections/women/night-runner-pants/night-runner-pants-01.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-02.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-03.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-04.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-05.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-06.jpg',
-          './images/collections/women/night-runner-pants/night-runner-pants-07.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-01.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-02.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-03.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-04.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-05.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-06.jpg',
+          'http://localhost:4000/images/collections/women/night-runner-pants/night-runner-pants-07.jpg',
         ],
       },
     ],
@@ -1145,24 +1146,24 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-blue-01.jpg',
+      'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-blue-01.jpg',
     images: [
       {
         blue: [
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-blue-01.jpg',
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-blue-02.jpg',
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-blue-03.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-blue-01.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-blue-02.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-blue-03.jpg',
         ],
       },
       {
         pink: [
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-pink-01.jpg',
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-pink-02.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-pink-01.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-pink-02.jpg',
         ],
       },
       {
         khaki: [
-          './images/collections/women/moonlight-bay-knit-blue/moonlight-bay-knit-khaki-01.jpg',
+          'http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-khaki-01.jpg',
         ],
       },
     ],
@@ -1225,15 +1226,16 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/women/women-shorts/women-shorts-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/women/women-shorts/women-shorts-01.jpg',
     images: [
       {
         blue: [
-          './images/collections/women/women-shorts/women-shorts-01.jpg',
-          './images/collections/women/women-shorts/women-shorts-02.jpg',
-          './images/collections/women/women-shorts/women-shorts-03.jpg',
-          './images/collections/women/women-shorts/women-shorts-04.jpg',
-          './images/collections/women/women-shorts/women-shorts-05.jpg',
+          'http://localhost:4000/images/collections/women/women-shorts/women-shorts-01.jpg',
+          'http://localhost:4000/images/collections/women/women-shorts/women-shorts-02.jpg',
+          'http://localhost:4000/images/collections/women/women-shorts/women-shorts-03.jpg',
+          'http://localhost:4000/images/collections/women/women-shorts/women-shorts-04.jpg',
+          'http://localhost:4000/images/collections/women/women-shorts/women-shorts-05.jpg',
         ],
       },
     ],
@@ -1297,15 +1299,15 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/women/high-waist-jeans/high-waist-jeans-01.jpg',
+      'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-01.jpg',
     images: [
       {
         blue: [
-          './images/collections/women/high-waist-jeans/high-waist-jeans-01.jpg',
-          './images/collections/women/high-waist-jeans/high-waist-jeans-02.jpg',
-          './images/collections/women/high-waist-jeans/high-waist-jeans-03.jpg',
-          './images/collections/women/high-waist-jeans/high-waist-jeans-04.jpg',
-          './images/collections/women/high-waist-jeans/high-waist-jeans-05.jpg',
+          'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-01.jpg',
+          'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-02.jpg',
+          'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-03.jpg',
+          'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-04.jpg',
+          'http://localhost:4000/images/collections/women/high-waist-jeans/high-waist-jeans-05.jpg',
         ],
       },
     ],
@@ -1379,13 +1381,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-01.jpg',
+      'http://localhost:4000/images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-01.jpg',
-          './images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-02.jpg',
-          './images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-03.jpg',
+          'http://localhost:4000/images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-01.jpg',
+          'http://localhost:4000/images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-02.jpg',
+          'http://localhost:4000/images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-03.jpg',
         ],
       },
     ],
@@ -1434,13 +1436,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-01.jpg',
+      'http://localhost:4000/images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-01.jpg',
     images: [
       {
         red: [
-          './images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-01.jpg',
-          './images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-02.jpg',
-          './images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-03.jpg',
+          'http://localhost:4000/images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-01.jpg',
+          'http://localhost:4000/images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-02.jpg',
+          'http://localhost:4000/images/collections/shoes/sandals-cross-strappy/sandals-cross-strappy-03.jpg',
         ],
       },
     ],
@@ -1489,12 +1491,12 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-01.jpg',
+      'http://localhost:4000/images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-01.jpg',
     images: [
       {
         beige: [
-          './images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-01.jpg',
-          './images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-02.jpg',
+          'http://localhost:4000/images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-02.jpg',
         ],
       },
     ],
@@ -1538,15 +1540,15 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-01.jpg',
+      'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-01.jpg',
     images: [
       {
         grey: [
-          './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-01.jpg',
-          './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-02.jpg',
-          './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-03.jpg',
-          './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-04.jpg',
-          './images/collections/men/casual-indigo-shirt/casual-indigo-shirt-05.jpg',
+          'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-01.jpg',
+          'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-02.jpg',
+          'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-03.jpg',
+          'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-04.jpg',
+          'http://localhost:4000/images/collections/men/casual-indigo-shirt/casual-indigo-shirt-05.jpg',
         ],
       },
     ],
@@ -1604,15 +1606,16 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/men/cargo-pant/cargo-pant-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-01.jpg',
     images: [
       {
         khaki: [
-          './images/collections/men/cargo-pant/cargo-pant-01.jpg',
-          './images/collections/men/cargo-pant/cargo-pant-02.jpg',
-          './images/collections/men/cargo-pant/cargo-pant-03.jpg',
-          './images/collections/men/cargo-pant/cargo-pant-04.jpg',
-          './images/collections/men/cargo-pant/cargo-pant-05.jpg',
+          'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-01.jpg',
+          'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-02.jpg',
+          'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-03.jpg',
+          'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-04.jpg',
+          'http://localhost:4000/images/collections/men/cargo-pant/cargo-pant-05.jpg',
         ],
       },
     ],
@@ -1680,14 +1683,15 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/men/men-grey-pants/men-grey-pants-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-01.jpg',
     images: [
       {
         grey: [
-          './images/collections/men/men-grey-pants/men-grey-pants-01.jpg',
-          './images/collections/men/men-grey-pants/men-grey-pants-02.jpg',
-          './images/collections/men/men-grey-pants/men-grey-pants-03.jpg',
-          './images/collections/men/men-grey-pants/men-grey-pants-04.jpg',
+          'http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-01.jpg',
+          'http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-02.jpg',
+          'http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-03.jpg',
+          'http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-04.jpg',
         ],
       },
     ],
@@ -1751,14 +1755,14 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/men/striped-ringer-tee/striped-ringer-tee-01.jpg',
+      'http://localhost:4000/images/collections/men/striped-ringer-tee/striped-ringer-tee-01.jpg',
     images: [
       {
         grey: [
-          './images/collections/men/striped-ringer-tee/striped-ringer-tee-01.jpg',
-          './images/collections/men/striped-ringer-tee/striped-ringer-tee-02.jpg',
-          './images/collections/men/striped-ringer-tee/striped-ringer-tee-03.jpg',
-          './images/collections/men/striped-ringer-tee/striped-ringer-tee-04.jpg',
+          'http://localhost:4000/images/collections/men/striped-ringer-tee/striped-ringer-tee-01.jpg',
+          'http://localhost:4000/images/collections/men/striped-ringer-tee/striped-ringer-tee-02.jpg',
+          'http://localhost:4000/images/collections/men/striped-ringer-tee/striped-ringer-tee-03.jpg',
+          'http://localhost:4000/images/collections/men/striped-ringer-tee/striped-ringer-tee-04.jpg',
         ],
       },
     ],
@@ -1837,13 +1841,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-01.jpg',
+      'http://localhost:4000/images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-01.jpg',
     images: [
       {
         white: [
-          './images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-01.jpg',
-          './images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-02.jpg',
-          './images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-03.jpg',
+          'http://localhost:4000/images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-01.jpg',
+          'http://localhost:4000/images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-02.jpg',
+          'http://localhost:4000/images/collections/shoes/lace-up-low-top-sneakers/lace-up-low-top-sneakers-03.jpg',
         ],
       },
     ],
@@ -1897,12 +1901,12 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-01.jpg',
+      'http://localhost:4000/images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-01.jpg',
     images: [
       {
         grey: [
-          './images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-01.jpg',
-          './images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-02.jpg',
+          'http://localhost:4000/images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-01.jpg',
+          'http://localhost:4000/images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-02.jpg',
         ],
       },
     ],
@@ -1970,12 +1974,13 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/shoes/top-sneakers/top-sneakers-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/shoes/top-sneakers/top-sneakers-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/top-sneakers/top-sneakers-01.jpg',
-          './images/collections/shoes/top-sneakers/top-sneakers-02.jpg',
+          'http://localhost:4000/images/collections/shoes/top-sneakers/top-sneakers-01.jpg',
+          'http://localhost:4000/images/collections/shoes/top-sneakers/top-sneakers-02.jpg',
         ],
       },
     ],
@@ -2039,11 +2044,11 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/slip-on-velcro-sneakers/slip-on-velcro-sneakers-01.jpg',
+      'http://localhost:4000/images/collections/shoes/slip-on-velcro-sneakers/slip-on-velcro-sneakers-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/slip-on-velcro-sneakers/slip-on-velcro-sneakers-01.jpg',
+          'http://localhost:4000/images/collections/shoes/slip-on-velcro-sneakers/slip-on-velcro-sneakers-01.jpg',
         ],
       },
     ],
@@ -2097,14 +2102,14 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/block-high-heel-formal/block-high-heel-formal-01.jpg',
+      'http://localhost:4000/images/collections/shoes/block-high-heel-formal/block-high-heel-formal-01.jpg',
     images: [
       {
         pink: [
-          './images/collections/shoes/block-high-heel-formal/block-high-heel-formal-01.jpg',
-          './images/collections/shoes/block-high-heel-formal/block-high-heel-formal-02.jpg',
-          './images/collections/shoes/block-high-heel-formal/block-high-heel-formal-03.jpg',
-          './images/collections/shoes/block-high-heel-formal/block-high-heel-formal-04.jpg',
+          'http://localhost:4000/images/collections/shoes/block-high-heel-formal/block-high-heel-formal-01.jpg',
+          'http://localhost:4000/images/collections/shoes/block-high-heel-formal/block-high-heel-formal-02.jpg',
+          'http://localhost:4000/images/collections/shoes/block-high-heel-formal/block-high-heel-formal-03.jpg',
+          'http://localhost:4000/images/collections/shoes/block-high-heel-formal/block-high-heel-formal-04.jpg',
         ],
       },
     ],
@@ -2163,14 +2168,14 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg-01.jpg',
+      'http://localhost:4000/images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg',
     images: [
       {
         white: [
-          './images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg-01.jpg',
-          './images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg-02.jpg',
-          './images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg-03.jpg',
-          './images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg-04.jpg',
+          'http://localhost:4000/images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/slingbacks-stiletto-heels/slingbacks-stiletto-heels-01.jpg',
         ],
       },
     ],
@@ -2219,13 +2224,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-01.jpg',
+      'http://localhost:4000/images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-01.jpg',
-          './images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-02.jpg',
-          './images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-03.jpg',
+          'http://localhost:4000/images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-02.jpg',
+          'http://localhost:4000/images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-03.jpg',
         ],
       },
     ],
@@ -2279,13 +2284,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-01.jpg',
+      'http://localhost:4000/images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-01.jpg',
     images: [
       {
         black: [
-          './images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-01.jpg',
-          './images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-02.jpg',
-          './images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-03.jpg',
+          'http://localhost:4000/images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-01.jpg',
+          'http://localhost:4000/images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-02.jpg',
+          'http://localhost:4000/images/collections/shoes/pointed-toe-ankle-strap/pointed-toe-ankle-strap-03.jpg',
         ],
       },
     ],
@@ -2354,13 +2359,13 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-01.jpg',
+      'http://localhost:4000/images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-01.jpg',
     images: [
       {
         white: [
-          './images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-01.jpg',
-          './images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-02.jpg',
-          './images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-03.jpg',
+          'http://localhost:4000/images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-01.jpg',
+          'http://localhost:4000/images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-02.jpg',
+          'http://localhost:4000/images/collections/shoes/strap-stiletto-heels/strap-stiletto-heels-03.jpg',
         ],
       },
     ],
@@ -2409,14 +2414,14 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-01.jpg',
+      'http://localhost:4000/images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-01.jpg',
-          './images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-02.jpg',
-          './images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-03.jpg',
-          './images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-04.jpg',
+          'http://localhost:4000/images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-01.jpg',
+          'http://localhost:4000/images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-02.jpg',
+          'http://localhost:4000/images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-03.jpg',
+          'http://localhost:4000/images/collections/shoes/silver-heeled-sandals/silver-heeled-sandals-04.jpg',
         ],
       },
     ],
@@ -2474,14 +2479,15 @@ export const products = [
         date: '',
       },
     ],
-    imgMain: './images/collections/accessories/silver-bag/silver-bag-01.jpg',
+    imgMain:
+      'http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/accessories/silver-bag/silver-bag-01.jpg',
-          './images/collections/accessories/silver-bag/silver-bag-02.jpg',
-          './images/collections/accessories/silver-bag/silver-bag-03.jpg',
-          './images/collections/accessories/silver-bag/silver-bag-04.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-01.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-02.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-03.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-04.jpg',
         ],
       },
     ],
@@ -2530,14 +2536,14 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/silver-tone-earrings/silver-tone-earrings-01.jpg',
+      'http://localhost:4000/images/collections/accessories/silver-tone-earrings/silver-tone-earrings-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/accessories/silver-tone-earrings/silver-tone-earrings-01.jpg',
-          './images/collections/accessories/silver-tone-earrings/silver-tone-earrings-02.jpg',
-          './images/collections/accessories/silver-tone-earrings/silver-tone-earrings-03.jpg',
-          './images/collections/accessories/silver-tone-earrings/silver-tone-earrings-04.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-tone-earrings/silver-tone-earrings-01.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-tone-earrings/silver-tone-earrings-02.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-tone-earrings/silver-tone-earrings-03.jpg',
+          'http://localhost:4000/images/collections/accessories/silver-tone-earrings/silver-tone-earrings-04.jpg',
         ],
       },
     ],
@@ -2581,12 +2587,12 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-01.jpg',
+      'http://localhost:4000/images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-01.jpg',
-          './images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-02.jpg',
+          'http://localhost:4000/images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-01.jpg',
+          'http://localhost:4000/images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-02.jpg',
         ],
       },
     ],
@@ -2625,11 +2631,11 @@ export const products = [
       },
     ],
     imgMain:
-      './images/collections/accessories/pendant-necklace/pendant-necklace-01.jpg',
+      'http://localhost:4000/images/collections/accessories/pendant-necklace/pendant-necklace-01.jpg',
     images: [
       {
         silver: [
-          './images/collections/accessories/pendant-necklace/pendant-necklace-01.jpg',
+          'http://localhost:4000/images/collections/accessories/pendant-necklace/pendant-necklace-01.jpg',
         ],
       },
     ],

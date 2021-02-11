@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './bigCards.css';
 
 import card1 from '../../images/big-cards/bigCard1.jpg';
@@ -7,7 +7,7 @@ import card2 from '../../images/big-cards/bigCard2.jpg';
 import card3 from '../../images/big-cards/bigCard3.jpg';
 import card4 from '../../images/big-cards/bigCard4.jpg';
 
-import { Card, Button } from 'antd';
+import { Card } from 'antd';
 
 const BigCards = () => {
   return (
@@ -20,7 +20,15 @@ const BigCards = () => {
         <Card className='card-text'>
           <h1>WOMEN TOPS</h1>
           <p>From world's top designer</p>
-          <Button className='card-text-btn'>DISCOVER NOW</Button>
+          <Link
+            className='card-text-btn'
+            to={{
+              pathname: '/products',
+              search: '?category=Women',
+            }}
+          >
+            DISCOVER NOW
+          </Link>
         </Card>
       </Card>
 
@@ -32,7 +40,15 @@ const BigCards = () => {
         <Card className='card-text'>
           <h1>MEN SHIRTS</h1>
           <p>New collection</p>
-          <Button className='card-text-btn'>SHOP NOW</Button>
+          <Link
+            className='card-text-btn'
+            to={{
+              pathname: '/products',
+              search: '?category=Men',
+            }}
+          >
+            SHOP NOW
+          </Link>
         </Card>
       </Card>
 
@@ -44,7 +60,15 @@ const BigCards = () => {
         <Card className='card-text'>
           <h1>ACCESSORIES</h1>
           <p>Add finishing touch to your outfit</p>
-          <Button className='card-text-btn'>SHOP NOW</Button>
+          <Link
+            className='card-text-btn'
+            to={{
+              pathname: '/products',
+              search: '?category=Accessories',
+            }}
+          >
+            SHOP NOW
+          </Link>
         </Card>
       </Card>
 
@@ -56,7 +80,15 @@ const BigCards = () => {
         <Card className='card-text'>
           <h1>DENIM</h1>
           <p>Find your perfect outfit</p>
-          <Button className='card-text-btn'>SHOP NOW</Button>
+          <Link
+            className='card-text-btn'
+            to={{
+              pathname: '/products',
+              search: '?category=Denim',
+            }}
+          >
+            SHOP NOW
+          </Link>
         </Card>
       </Card>
     </div>
