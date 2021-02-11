@@ -15,9 +15,9 @@ function ProductSlider({
     <div className={styles.slider}>
       {images.map((img, index) => (
         <Slider
-          key={img.id}
+          key={index}
           idx={index}
-          source={img.imageSm}
+          source={img}
           current={index === currentIndex ? true : false}
           imageChangeHandler={imageChangeHandler}
         />

@@ -23,7 +23,7 @@ function ProductImageZoomer({ currentImage }) {
       <div
         className={styles.image}
         style={{
-          backgroundImage: `url(${currentImage.imageXl})`,
+          backgroundImage: `url(${currentImage})`,
           backgroundPosition: `${bgPosition}`,
         }}
         onMouseMove={mouseMoveHandler}

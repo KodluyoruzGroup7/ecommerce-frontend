@@ -8,7 +8,7 @@ import styles from './productCard.module.css';
 const ProductCard = ({ product, isWishlist }) => {
   return (
     <div className={styles.wrapper}>
-      <Link to='/details' className={styles.anchor}>
+      <Link to={`/product/${product.id}`} className={styles.anchor}>
         <CardImg
           name={product.name}
           imgUrl={product.imgMain}
