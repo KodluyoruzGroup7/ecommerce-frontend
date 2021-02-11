@@ -1,147 +1,115 @@
 .detail {
-    width: 100%;
-    margin-left: 2%;
+  width: 100%;
+  margin-left: 2%;
 }
 
 .productTitle {
-    font-size: 1.125rem;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-bottom: 1.25rem;
-    letter-spacing: 0.02rem;
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02rem;
 }
 
 .productStatus {
-    max-width: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
+  max-width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
 }
 
-.productStock {
-    color: #76bd1c;
+.inStock {
+  color: #76bd1c;
+}
+.outStock {
+  color: red;
 }
 
 .price {
-    display: block;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 0.6rem;
+  display: block;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .tax {
-    display: block;
-    margin-bottom: 1.25rem;
+  display: block;
+  margin-bottom: 1.25rem;
 }
 
 .quantityMessage {
-    color: #fff;
-    padding: 0.1rem 0.725rem;
-    background-color: #000;
-    width: fit-content;
-    margin-bottom: 1.25rem;
+  color: #fff;
+  padding: 0.1rem 0.725rem;
+  background-color: #000;
+  width: fit-content;
+  margin-bottom: 1.25rem;
 }
 
 .colors h3,
 .sizeContainer h3 {
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .selectedColor {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .colorOptions {
-    display: flex;
-    align-items: center;
-}
-
-.colorBox {
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: 5px;
-    background-color: royalblue;
-    margin-right: 1%;
-    border: 1px solid rgba(0, 0, 0, 1);
-    margin-bottom: 2rem;
-    cursor: pointer;
-}
-
-.colorOptions {
-    display: flex;
-    align-items: center;
-}
-
-.sizeBox {
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    width: 2rem;
-    height: 2rem;
-    background-color: royalblue;
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.active {
-    border: 1px solid red;
+  display: flex;
+  align-items: center;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .icon {
-    margin-right: 5%;
-    cursor: pointer;
+  margin-right: 5%;
+  cursor: pointer;
 }
 
 .fontawesome {
-    display: inline-block;
-    margin-right: 0.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
 }
 
 .actionContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .quantityField {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
 }
 
 .qtyBtn:first-child {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .qtyBtn:last-child {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .qty {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .actionContainer button {
-    background-color: #000;
-    flex: 1;
-    padding: 0.5rem;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    margin-left: 1rem;
-    font-size: 1.1rem;
+  background-color: #000;
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.1rem;
 }

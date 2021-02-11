@@ -1,0 +1,14 @@
+.sizeBox {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1%;
+  width: 2rem;
+  height: 2rem;
+  background-color: royalblue;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

@@ -31,7 +31,7 @@ export const CartContextProvider = ({ children }) => {
         imgMain,
         totalPrice: (cartItem.qty * price).toFixed(2),
       };
-      setCartItems([...cartItems, updatedCartItem]);
+      setCartItems((cartItems) => cartItems.concat(updatedCartItem));
     }
   }, [cartItem]);
 
