@@ -1,19 +1,41 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import CardContent from './CardContent/CardContent';
 import CardImg from './CardImg/CardImg';
 import styles from './productCard.module.css';
+import CartContext from '../../contexts/CartContext';
+import WishlistContext from '../../contexts/WishlistContext';
+const ProductCard = ({ product }) => {
+  const { setCartItem } = useContext(CartContext);
+  const { wishlist, removeWishItem, setWishlistItem } = useContext(
+    WishlistContext,
+  );
 
-const ProductCard = ({ product, isWishlist }) => {
+  const addCartHandler = (product) => {
+    setCartItem(product);
+  };
+
+  const addWishListHandler = (id) => {
+    setWishlistItem(id);
+  };
+
+  const removeWhisListHandler = (id) => {
+    removeWishItem(id);
+  };
+
   return (
     <div className={styles.wrapper}>
+      <CardImg
+        pid={product.id}
+        isInWishList={wishlist.find((item) => item.id === product.id)}
+        name={product.name}
+        imgUrl={product.imgMain}
+        addWishListHandler={addWishListHandler}
+        removeWhisListHandler={removeWhisListHandler}
+        addCartHandler={addCartHandler}
+      />
       <Link to={`/product/${product.id}`} className={styles.anchor}>
-        <CardImg
-          name={product.name}
-          imgUrl={product.imgMain}
-          isWishlist={isWishlist}
-        />
         <CardContent
           name={product.name}
           price={product.price}
