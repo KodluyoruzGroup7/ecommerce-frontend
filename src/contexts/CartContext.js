@@ -7,8 +7,6 @@ const CartContext = createContext({});
     {
       id*,
       qty*,
-      color*,
-      size*,
       price,
       name,
       imgMain,
@@ -18,8 +16,10 @@ const CartContext = createContext({});
 */
 
 export const CartContextProvider = ({ children }) => {
-  const [cartItem, addCartItem] = useState();
+  const [cartItem, setCartItem] = useState();
   const [cartItems, setCartItems] = useState([]);
+
+  console.log(cartItems);
 
   useEffect(() => {
     if (cartItem) {
@@ -36,7 +36,7 @@ export const CartContextProvider = ({ children }) => {
   }, [cartItem]);
 
   return (
-    <CartContext.Provider value={{ cartItems, addCartItem }}>
+    <CartContext.Provider value={{ cartItems, setCartItem }}>
       {children}
     </CartContext.Provider>
   );
