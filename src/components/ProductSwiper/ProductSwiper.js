@@ -30,8 +30,6 @@ const ProductSwiper = ({ products }) => {
       keyboard={{ enabled: true }}
       followFinger={'followFinger'}
       allowTouchMove={true}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
       breakpoints={{
         640: {
           slidesPerView: 2,

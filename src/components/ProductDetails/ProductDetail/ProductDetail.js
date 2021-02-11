@@ -40,7 +40,7 @@ function ProductDetail({ product }) {
         </h3>
         <div className={styles.colorOptions}>
           {product.color.map((c) => (
-            <ColorBox color={c} />
+            <ColorBox key={c} color={c} />
           ))}
         </div>
       </div>
@@ -50,7 +50,7 @@ function ProductDetail({ product }) {
         </h3>
         <div className={styles.colorOptions}>
           {product.size.map((s) => (
-            <SizeBox size={s} />
+            <SizeBox key={s} size={s} />
           ))}
         </div>
       </div>
