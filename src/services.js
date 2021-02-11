@@ -4,7 +4,7 @@ export const getAllProducts = () => DATA;
 
 export const getProductById = (id) => {
   try {
-    const product = DATA.filter((p) => p.id === id);
+    const product = DATA.find((p) => p.id === id);
     if (!product) {
       throw new Error('Product not found');
     }

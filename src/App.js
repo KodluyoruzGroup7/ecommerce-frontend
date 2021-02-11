@@ -19,23 +19,23 @@ function App() {
         <WishlistContextProvider>
           <Layout>
             <Switch>
-              <Route path='/products'>
-                <Products />
-              </Route>
-              <Route path='/details'>
-                <ProductDetailScreen />
-              </Route>
-              <Route path='/wishlist'>
-                <Wishlist />
-              </Route>
               <Route path='/login'>
                 <Login />
               </Route>
               <Route path='/register'>
                 <Register />
               </Route>
+              <Route path='/wishlist'>
+                <Wishlist />
+              </Route>
               <Route path='/cart'>
                 <Cart />
+              </Route>
+              <Route path='/products'>
+                <Products />
+              </Route>
+              <Route path='/product/:id'>
+                <ProductDetailScreen />
               </Route>
               <Route path='/'>
                 <HomeScreen />

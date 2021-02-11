@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
-import './products.css';
-import { BackTop, Checkbox } from 'antd';
-
 import ProductCard from '../../components/ProductCard/ProductCard';
 import { getProductsByCategory, getAllProducts } from '../../services';
+import './products.css';
+import { BackTop, Checkbox } from 'antd';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
