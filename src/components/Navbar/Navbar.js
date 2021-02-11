@@ -34,25 +34,45 @@ function Navbar() {
         mode='horizontal'
       >
         <Menu.Item key='women'>
-          <Link to='/' target='_blank' rel='noopener noreferrer'>
+          <Link
+            to={{
+              pathname: '/products',
+              search: '?category=Women',
+            }}
+          >
             Women
           </Link>
         </Menu.Item>
 
         <Menu.Item key='men'>
-          <Link to='/' target='_blank' rel='noopener noreferrer'>
+          <Link
+            to={{
+              pathname: '/products',
+              search: '?category=Men',
+            }}
+          >
             Men
           </Link>
         </Menu.Item>
 
         <Menu.Item key='shoes'>
-          <Link to='/' target='_blank' rel='noopener noreferrer'>
+          <Link
+            to={{
+              pathname: '/products',
+              search: '?category=Shoes',
+            }}
+          >
             Shoes
           </Link>
         </Menu.Item>
 
         <Menu.Item key='accessories'>
-          <Link to='/' target='_blank' rel='noopener noreferrer'>
+          <Link
+            to={{
+              pathname: '/products',
+              search: '?category=Accessories',
+            }}
+          >
             Accessories
           </Link>
         </Menu.Item>

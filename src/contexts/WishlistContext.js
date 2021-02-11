@@ -20,15 +20,17 @@ export const WishlistContextProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([]);
 
   useEffect(() => {
-    const { quantity, price, name, imgMain } = getProductById(itemId);
-    const whislistItem = {
-      id: itemId,
-      price,
-      name,
-      imgMain,
-      quantity,
-    };
-    setWishlist([...wishlist, whislistItem]);
+    if (itemId) {
+      const { quantity, price, name, imgMain } = getProductById(itemId);
+      const whislistItem = {
+        id: itemId,
+        price,
+        name,
+        imgMain,
+        quantity,
+      };
+      setWishlist([...wishlist, whislistItem]);
+    }
   }, [itemId]);
 
   return (

@@ -1,13 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 import './products.css';
 import { BackTop, Checkbox } from 'antd';
 
 import ProductCard from '../../components/ProductCard/ProductCard';
-import products from './productData';
+import { getProductsByCategory, getAllProducts } from '../../services';
 
 const Products = () => {
+  const [products, setProducts] = useState([]);
+  const query = useLocation().search;
+  console.log(products);
+  useEffect(() => {
+    let fetchedProducts;
+    if (query) {
+      fetchedProducts = getProductsByCategory(query.split('=')[1]);
+    } else {
+      fetchedProducts = getAllProducts();
+    }
+    setProducts(fetchedProducts);
+  }, [query]);
+
   return (
     <>
       <BackTop />
