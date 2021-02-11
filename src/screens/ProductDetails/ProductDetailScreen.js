@@ -62,9 +62,9 @@ const ProductDetailScreen = () => {
           updateIndexHandler={updateIndexHandler}
         />
         <ProductImageZoomer currentImage={currentImage} />
-        <ProductDetail />
+        <ProductDetail product={product} />
       </div>
-      <ProductDetailTabs />
+      <ProductDetailTabs reviews={product.reviews} rating={product.rating} />
       <ProductSwiper products={randomProducts} />
     </section>
   );

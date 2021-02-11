@@ -11,6 +11,7 @@ import Wishlist from './screens/Wishlist/Wishlist';
 import Cart from './screens/Cart/Cart';
 import { CartContextProvider } from './contexts/CartContext';
 import { WishlistContextProvider } from './contexts/WishlistContext';
+import ScrollToTop from './components/helper/ScrollToTop';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <CartContextProvider>
         <WishlistContextProvider>
           <Layout>
+            <ScrollToTop />
             <Switch>
               <Route path='/login'>
                 <Login />

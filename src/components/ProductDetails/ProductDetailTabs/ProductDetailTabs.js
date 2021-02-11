@@ -6,9 +6,9 @@ import Rating from '../../UI/Rating/Rating';
 
 const { TabPane } = Tabs;
 
-const ProductDetailTabs = () => {
+const ProductDetailTabs = ({ reviews, rating }) => {
   return (
-    <Tabs type='card' defaultActiveKey='detail'>
+    <Tabs type='card' defaultActiveKey='reviews'>
       <TabPane
         tab='Product Details'
         key='detail'
@@ -49,14 +49,13 @@ const ProductDetailTabs = () => {
       <TabPane tab='Reviews' key='reviews'>
         <div className='reviewWrapper'>
           <div className='reviewActioner'>
-            <Rating value={5} numberOfReviews={8} />
+            <Rating value={rating} numberOfReviews={reviews.length} />
             <button>Write a Review</button>
           </div>
           <div>
-            <Reviews />
-            <Reviews />
-            <Reviews />
-            <Reviews />
+            {reviews.map((review) => (
+              <Reviews key={review.ratingId} review={review} />
+            ))}
           </div>
         </div>
       </TabPane>

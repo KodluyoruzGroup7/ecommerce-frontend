@@ -29,7 +29,7 @@ export const WishlistContextProvider = ({ children }) => {
         imgMain,
         quantity,
       };
-      setWishlist([...wishlist, whislistItem]);
+      setWishlist((list) => list.concat(whislistItem));
     }
   }, [itemId]);
 

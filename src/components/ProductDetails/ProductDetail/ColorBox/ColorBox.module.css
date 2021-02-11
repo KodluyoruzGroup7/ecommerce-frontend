@@ -1,0 +1,13 @@
+.colorBox {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 5px;
+  margin-right: 1%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid red;
+}

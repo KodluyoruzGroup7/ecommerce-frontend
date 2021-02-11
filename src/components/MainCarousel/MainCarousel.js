@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './mainCarousel.css';
-import { Carousel, Button } from 'antd';
+import { Carousel } from 'antd';
 import banner1 from '../../images/carousel/crsl01.jpg';
 import banner2 from '../../images/carousel/crsl02.jpg';
 
