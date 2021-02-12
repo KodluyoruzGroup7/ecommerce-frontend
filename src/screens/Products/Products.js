@@ -27,16 +27,36 @@ const Products = () => {
           <div className='collection-section'>
             <h3 className='collection-header'>COLLECTIONS</h3>
             <ul className='categories'>
-              <Link to='/' target='_blank' rel='noopener noreferrer'>
+              <Link
+                to={{
+                  pathname: '/products',
+                  search: '?category=Women',
+                }}
+              >
                 <li className='categories-item'>Women</li>
               </Link>
-              <Link to='/' target='_blank' rel='noopener noreferrer'>
+              <Link
+                to={{
+                  pathname: '/products',
+                  search: '?category=Men',
+                }}
+              >
                 <li className='categories-item'>Men</li>
               </Link>
-              <Link to='/' target='_blank' rel='noopener noreferrer'>
+              <Link
+                to={{
+                  pathname: '/products',
+                  search: '?category=Shoes',
+                }}
+              >
                 <li className='categories-item'>Shoes</li>
               </Link>
-              <Link to='/' target='_blank' rel='noopener noreferrer'>
+              <Link
+                to={{
+                  pathname: '/products',
+                  search: '?category=Accessories',
+                }}
+              >
                 <li className='categories-item'>Accessories</li>
               </Link>
             </ul>
