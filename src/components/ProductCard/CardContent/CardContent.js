@@ -6,13 +6,13 @@ import styles from './CardContent.module.css';
 
 const CardContent = ({ name, price, numOfReviews, ratingValue }) => {
   return (
-      <div className={styles.content}>
-          <Heading headingFor="item" centered capitalize>
-              {name}
-          </Heading>
-          <span className={styles.price}>{price} ₺</span>
-          <Rating numberOfReviews={numOfReviews} value={ratingValue} />
-      </div>
+    <div className={styles.content}>
+      <Heading headingFor='item' centered capitalize>
+        {name}
+      </Heading>
+      <span className={styles.price}>{price} $</span>
+      <Rating numberOfReviews={numOfReviews} value={ratingValue} />
+    </div>
   );
 };
 
