@@ -142,6 +142,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/women/button-up-top-black/button-up-top-black-01.jpg",
@@ -218,6 +234,14 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
             },
         ],
         imgMain:
@@ -409,6 +433,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/toledo-mules-shoes/toledo-mules-shoes-black-01.jpg",
@@ -489,6 +529,22 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
             },
         ],
         imgMain:
@@ -599,6 +655,14 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
             },
         ],
         imgMain:
@@ -770,6 +834,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/accessories/metal-buckle-skinny-belt/metal-buckle-skinny-belt-orange-01.jpg",
@@ -917,6 +997,14 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/accessories/footprint-endant-necklace/footprint-endant-necklace-01.jpg",
@@ -1052,6 +1140,22 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
             },
         ],
         imgMain:
@@ -1250,6 +1354,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/women/speak-low-bodysuit/speak-low-bodysuit-01.jpg",
@@ -1438,6 +1558,14 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/women/moonlight-bay-knit/moonlight-bay-knit-blue-01.jpg",
@@ -1537,6 +1665,22 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
             },
         ],
         imgMain:
@@ -1722,6 +1866,14 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/two-part-ankle-strap/two-part-ankle-strap-01.jpg",
@@ -1863,6 +2015,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. ",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/two-part-stiletto-heels/two-part-stiletto-heels-01.jpg",
@@ -1928,6 +2096,30 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
+            {
+                ratingId: 8,
+                rating: 4.3,
+                date: "01.02.2021",
+                title: "Good",
+                content:
+                    "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.",
             },
         ],
         imgMain:
@@ -2113,6 +2305,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/men/men-grey-pants/men-grey-pants-01.jpg",
@@ -2202,6 +2410,14 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
             },
         ],
         imgMain:
@@ -2361,6 +2577,30 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
+            {
+                ratingId: 8,
+                rating: 4.3,
+                date: "01.02.2021",
+                title: "Good",
+                content:
+                    "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/up-low-top-sneakers/up-low-top-sneakers-01.jpg",
@@ -2426,6 +2666,22 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
             },
         ],
         imgMain:
@@ -2493,6 +2749,14 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/slip-on-velcro-sneakers/slip-on-velcro-sneakers-01.jpg",
@@ -2556,6 +2820,30 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
+            {
+                ratingId: 8,
+                rating: 4.3,
+                date: "01.02.2021",
+                title: "Good",
+                content:
+                    "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.",
             },
         ],
         imgMain:
@@ -2697,6 +2985,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/shoes/detail-pointed-toe-kitten-heels/detail-pointed-toe-kitten-heels-01.jpg",
@@ -2764,6 +3068,22 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
             },
         ],
         imgMain:
@@ -2837,6 +3157,14 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
             },
         ],
         imgMain:
@@ -2976,6 +3304,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/accessories/silver-bag/silver-bag-01.jpg",
@@ -3045,6 +3389,14 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
             },
         ],
         imgMain:
@@ -3116,6 +3468,22 @@ export const products = [
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
             },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
         ],
         imgMain:
             "http://localhost:4000/images/collections/accessories/footprint-pendant-necklace/footprint-pendant-necklace-01.jpg",
@@ -3181,6 +3549,30 @@ export const products = [
                 title: "Good",
                 content:
                     "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+            },
+            {
+                ratingId: 6,
+                rating: 4.4,
+                date: "01.02.2021",
+                title: "Nice",
+                content:
+                    "Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+            },
+            {
+                ratingId: 7,
+                rating: 4.7,
+                date: "01.02.2021",
+                title: "Like it",
+                content:
+                    "Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.",
+            },
+            {
+                ratingId: 8,
+                rating: 4.3,
+                date: "01.02.2021",
+                title: "Good",
+                content:
+                    "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.",
             },
         ],
         imgMain:
