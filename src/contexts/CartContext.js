@@ -32,11 +32,19 @@ export const CartContextProvider = ({ children }) => {
         totalPrice: (cartItem.qty * price).toFixed(2),
       };
       setCartItems((cartItems) => cartItems.concat(updatedCartItem));
+      setCartItem(null);
     }
   }, [cartItem]);
 
+  const removeCartItemHandler = (pid) => {
+    const updatedCartList = cartItems.filter((p) => p.id !== pid);
+    setCartItems(updatedCartList);
+  };
+
   return (
-    <CartContext.Provider value={{ cartItems, setCartItem }}>
+    <CartContext.Provider
+      value={{ cartItems, setCartItem, removeCartItemHandler }}
+    >
       {children}
     </CartContext.Provider>
   );

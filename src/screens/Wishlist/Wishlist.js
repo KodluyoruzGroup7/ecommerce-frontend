@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import './wishlist.css';
 
-import data from './wishlistData';
 import { CloseSquareTwoTone } from '@ant-design/icons';
+import WishListContext from '../../contexts/WishlistContext';
 
 const Wishlist = () => {
+  const { wishlist, removeWishListItem } = useContext(WishListContext);
   return (
     <>
       <h1 className='wishlist-header'>Wishlist</h1>
@@ -22,33 +23,36 @@ const Wishlist = () => {
             </tr>
           </thead>
           <tbody>
-            {data.map((product) => (
+            {wishlist.map((product) => (
               <tr className='table-item'>
                 <td>
-                  <img src={product.img} alt={product.name} height='100px' />
+                  <img
+                    src={product.imgMain}
+                    alt={product.name}
+                    height='100px'
+                  />
                 </td>
                 <td className='product-text'>{product.name}</td>
                 <td className='price-text'>{product.price} ₺</td>
                 <td
                   style={{
-                    color: product.status === 'In Stock' ? 'green' : 'red',
+                    color: product.quantity ? 'green' : 'red',
                     textAlign: 'center',
                   }}
                 >
-                  {product.status}
+                  {product.stockStatus}
                 </td>
                 <td className='product-btn'>
-                  <Link to='/' target='_blank' rel='noopener noreferrer'>
+                  <Link to={`/product/${product.id}`}>
                     <Button>VIEW PRODUCT</Button>
                   </Link>
                 </td>
                 <td>
-                  <Link to='/' target='_blank' rel='noopener noreferrer'>
-                    <CloseSquareTwoTone
-                      twoToneColor='#ce0620'
-                      className='delete-icon'
-                    />
-                  </Link>
+                  <CloseSquareTwoTone
+                    twoToneColor='#ce0620'
+                    className='delete-icon'
+                    onClick={() => removeWishListItem(product.id)}
+                  />
                 </td>
               </tr>
             ))}

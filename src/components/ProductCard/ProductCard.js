@@ -8,7 +8,7 @@ import CartContext from '../../contexts/CartContext';
 import WishlistContext from '../../contexts/WishlistContext';
 const ProductCard = ({ product }) => {
   const { setCartItem } = useContext(CartContext);
-  const { wishlist, removeWishItem, setWishlistItem } = useContext(
+  const { wishlist, removeWishListItem, setWishlistItem } = useContext(
     WishlistContext,
   );
 
@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
   };
 
   const removeWhisListHandler = (id) => {
-    removeWishItem(id);
+    removeWishListItem(id);
   };
 
   return (

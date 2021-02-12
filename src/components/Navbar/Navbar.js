@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { HoverDropdown } from './Dropdown/Dropdown';
 import './navbar.css';
-
+import WishListContext from '../../contexts/WishlistContext';
+import CartContext from '../../contexts/CartContext';
 import { Menu, Dropdown } from 'antd';
 import {
   ShopOutlined,
@@ -14,6 +15,8 @@ import {
 
 function Navbar() {
   const [selectedMenu, setSelectedMenu] = useState('');
+  const { cartItems } = useContext(CartContext);
+  const { wishlist } = useContext(WishListContext);
 
   const menuClickHandler = (e) => {
     setSelectedMenu(e.key);
@@ -88,9 +91,11 @@ function Navbar() {
           </Link>
         </Dropdown>
         <Link to='/wishlist'>
+          <div className='count'>{wishlist.length}</div>
           <HeartOutlined />
         </Link>
         <Link to='/cart'>
+          <div className='count'>{cartItems.length}</div>
           <ShoppingOutlined />
         </Link>
       </div>
