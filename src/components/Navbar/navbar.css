@@ -68,6 +68,10 @@
   color: #fff;
 }
 
+.hide {
+  display: none;
+}
+
 .menu-right a:last-child {
   margin-right: 0;
 }

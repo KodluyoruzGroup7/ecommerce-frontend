@@ -1,20 +1,25 @@
 .quantityField {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 5px;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.qtyBtn {
+  cursor: pointer;
 }
 
 .qtyBtn:first-child {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .qtyBtn:last-child {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .qty {
-    font-size: 1rem;
+  font-size: 1rem;
 }

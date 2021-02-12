@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import './wishlist.css';
@@ -12,10 +12,10 @@ const Wishlist = () => {
     <>
       <h1 className='wishlist-header'>Wishlist</h1>
       <div className='table-container'>
-        <table class='table'>
+        <table className='table'>
           <thead>
             <tr className='table-header'>
-              <th colspan='2'>PRODUCT</th>
+              <th colSpan='2'>PRODUCT</th>
               <th>PRICE</th>
               <th></th>
               <th></th>
@@ -24,7 +24,7 @@ const Wishlist = () => {
           </thead>
           <tbody>
             {wishlist.map((product) => (
-              <tr className='table-item'>
+              <tr key={product.id} className='table-item'>
                 <td>
                   <img
                     src={product.imgMain}

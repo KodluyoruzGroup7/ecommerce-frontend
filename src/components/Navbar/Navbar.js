@@ -91,11 +91,15 @@ function Navbar() {
           </Link>
         </Dropdown>
         <Link to='/wishlist'>
-          <div className='count'>{wishlist.length}</div>
+          <div className={`count ${!wishlist.length && 'hide'}`}>
+            {wishlist.length}
+          </div>
           <HeartOutlined />
         </Link>
         <Link to='/cart'>
-          <div className='count'>{cartItems.length}</div>
+          <div className={`count ${!cartItems.length && 'hide'}`}>
+            {cartItems.length}
+          </div>
           <ShoppingOutlined />
         </Link>
       </div>
