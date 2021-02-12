@@ -33,7 +33,7 @@ const Wishlist = () => {
                   />
                 </td>
                 <td className='product-text'>{product.name}</td>
-                <td className='price-text'>{product.price} ₺</td>
+                <td className='price-text'>{product.price} $</td>
                 <td
                   style={{
                     color: product.quantity ? 'green' : 'red',
