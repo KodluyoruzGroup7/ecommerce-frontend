@@ -5,7 +5,7 @@ import { faStar as regularStar } from '@fortawesome/free-regular-svg-icons';
 import PropTypes from 'prop-types';
 import styles from './Rating.module.css';
 
-function Rating({ value, color, numberOfReviews }) {
+function Rating({ value, color, numberOfReviews, hideText }) {
   let text = 'No reviews';
 
   if (numberOfReviews > 0) {
@@ -34,7 +34,7 @@ function Rating({ value, color, numberOfReviews }) {
         color={color}
         icon={value >= 5 ? faStar : value >= 4.5 ? faStarHalfAlt : regularStar}
       />
-      <span className={styles.text}>{text}</span>
+      {!hideText && <span className={styles.text}>{text}</span>}
     </div>
   );
 }
@@ -43,11 +43,13 @@ Rating.propTypes = {
   value: PropTypes.number.isRequired,
   numberOfReviews: PropTypes.number,
   color: PropTypes.string,
+  hideText: PropTypes.bool,
 };
 
 Rating.defaultProps = {
   color: '#ffb503',
   numberOfReviews: 0,
+  hideText: false,
 };
 
 export default Rating;

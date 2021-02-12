@@ -2,19 +2,17 @@ import React from 'react';
 import Rating from '../Rating/Rating';
 import styles from './Reviews.module.css';
 
-const Reviews = () => {
+const Reviews = ({ review }) => {
   return (
-      <div className={styles.review}>
-        <div className={styles.content}>
-          <Rating value={5} />
-          <h2>Testing</h2>
-          <small>Code on 2021</small>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fugiat.</p>
-        </div>
-        <div className={styles.report}>
-          Report as Inappropriate
-        </div>
+    <div className={styles.review}>
+      <div className={styles.content}>
+        <Rating value={review.rating} hideText />
+        <h2>{review.title}</h2>
+        <small>{review.date}</small>
+        <p>{review.content}</p>
       </div>
+      <div className={styles.report}>Report as Inappropriate</div>
+    </div>
   );
 };
 
