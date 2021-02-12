@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import CardContent from './CardContent/CardContent';
@@ -7,21 +7,21 @@ import styles from './productCard.module.css';
 import CartContext from '../../contexts/CartContext';
 import WishlistContext from '../../contexts/WishlistContext';
 const ProductCard = ({ product }) => {
-  const { setCartItem } = useContext(CartContext);
-  const { wishlist, removeWishItem, setWishlistItem } = useContext(
+  const { addCartItemHandler } = useContext(CartContext);
+  const { wishlist, removeWishListItem, addWishListItem } = useContext(
     WishlistContext,
   );
 
   const addCartHandler = (product) => {
-    setCartItem(product);
+    addCartItemHandler(product);
   };
 
   const addWishListHandler = (id) => {
-    setWishlistItem(id);
+    addWishListItem(id);
   };
 
   const removeWhisListHandler = (id) => {
-    removeWishItem(id);
+    removeWishListItem(id);
   };
 
   return (

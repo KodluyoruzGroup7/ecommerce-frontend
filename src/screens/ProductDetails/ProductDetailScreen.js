@@ -35,13 +35,11 @@ const ProductDetailScreen = () => {
 
   const updateIndexHandler = (type) => {
     if (type === 'down') {
-      if (currentIndex + 1 < product.images.length) {
-        setCurrentIndex(currentIndex + 1);
+      if (currentIndex + 1 < product.images.showcase.length) {
         imageChangeHandler(currentIndex + 1);
       }
     } else {
       if (currentIndex > 0) {
-        setCurrentIndex(currentIndex - 1);
         imageChangeHandler(currentIndex - 1);
       }
     }

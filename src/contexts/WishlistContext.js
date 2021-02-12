@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState } from 'react';
 import { getProductById } from '../services';
 
 const WishlistContext = createContext({});
@@ -16,36 +16,29 @@ const WishlistContext = createContext({});
 */
 
 export const WishlistContextProvider = ({ children }) => {
-  const [itemId, setWishlistItem] = useState();
   const [wishlist, setWishlist] = useState([]);
-  const [removeId, removeWishItem] = useState();
 
-  useEffect(() => {
-    if (itemId) {
-      const { quantity, price, name, imgMain } = getProductById(itemId);
-      const whislistItem = {
-        id: itemId,
-        price,
-        name,
-        imgMain,
-        quantity,
-      };
-      setWishlist((list) => list.concat(whislistItem));
-      setWishlistItem(null);
-    }
-  }, [itemId]);
+  const addWishListItem = (pid) => {
+    const { quantity, price, name, imgMain, stockStatus } = getProductById(pid);
+    const whislistItem = {
+      id: pid,
+      price,
+      name,
+      imgMain,
+      stockStatus,
+      quantity,
+    };
+    setWishlist((list) => list.concat(whislistItem));
+  };
 
-  useEffect(() => {
-    if (removeId) {
-      const updatedList = wishlist.filter((p) => p.id !== removeId);
-      setWishlist(updatedList);
-      removeWishItem(null);
-    }
-  }, [removeId]);
+  const removeWishListItem = (pid) => {
+    const updatedList = wishlist.filter((p) => p.id !== pid);
+    setWishlist(updatedList);
+  };
 
   return (
     <WishlistContext.Provider
-      value={{ wishlist, setWishlistItem, removeWishItem }}
+      value={{ wishlist, addWishListItem, removeWishListItem }}
     >
       {children}
     </WishlistContext.Provider>
