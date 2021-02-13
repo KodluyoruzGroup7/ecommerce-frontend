@@ -37,8 +37,7 @@
     margin: 0.2rem;
 }
 
-.categories-item:hover,
-.categories-item:active {
+.categories-item:hover {
     color: rgba(0, 0, 0, 0.8);
     font-weight: 700;
 }
